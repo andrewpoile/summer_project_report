@@ -1,0 +1,284 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{pathakSchoolAdmissionsReform2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e75d96917751be05beac30ccd106dc84}{%
+           family={Pathak},
+           familyi={P\bibinitperiod},
+           given={Parag\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8073f6091c1c9c41b6684fbd2d0112aa}{%
+           family={Sönmez},
+           familyi={S\bibinitperiod},
+           given={Tayfun},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{fullhash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{fullhashraw}{71ba6ffb3525341d860bc888754d928c}
+      \strng{bibnamehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authorbibnamehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authornamehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authorfullhash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authorfullhashraw}{71ba6ffb3525341d860bc888754d928c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{School {{Admissions Reform}} in {{Chicago}} and {{England}}: {{Comparing Mechanisms}} by Their {{Vulnerability}} to {{Manipulation}}}
+      \field{volume}{103}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{80\bibrangedash 106}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1257/aer.103.1.80
+      \endverb
+    \endentry
+    \entry{terrierImmediateAcceptanceDeferred}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1e6047b57c25357a27e5bf5910d32ac7}{%
+           family={Terrier},
+           familyi={T\bibinitperiod},
+           given={Camille},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e75d96917751be05beac30ccd106dc84}{%
+           family={Pathak},
+           familyi={P\bibinitperiod},
+           given={Parag\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=66e81506834dcfca2d2ac5d1310ffa17}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{fullhash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{fullhashraw}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{bibnamehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authorbibnamehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authornamehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authorfullhash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authorfullhashraw}{89cd246b4f157767da5980fe9124b9d5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Countries and cities around the world increasingly rely on centralized systems to assign students to schools. Two algorithms, deferred acceptance (DA) and immediate acceptance (IA), are widespread. The latter is often criticized for harming disadvantaged families who fail to get access to popular schools. This paper investigates the effect of the national ban of the IA mechanism in England in 2008. Before the ban, 49 English local authorities used DA and 16 used IA. All IA local authorities switched to DA afterwards, giving rise to a cross-market differencein-differences research design. Our results show that the elimination of IA reduces measures of school quality for low-SES students more than high-SES students. After the ban, low-SES students attend schools with lower value-added and more disadvantaged and low-achieving peers. This effect is primarily driven by a decrease in low-SES admissions at selective schools. Our findings point to an unintended consequence of the IA to DA transition: by encouraging highSES parents to report their preferences truthfully, DA increases competition for top schools, which crowds out low-SES students.}
+      \field{langid}{english}
+      \field{title}{From {{Immediate Acceptance}} to {{Deferred Acceptance}}: {{Effects}} on {{School Admissions}} and {{Achievement}} in {{England}}}
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\37MFT3NZ\Terrier et al. - From Immediate Acceptance to Deferred Acceptance Effects on School Admissions and Achievement in En.pdf
+      \endverb
+    \endentry
+    \entry{haeringerConstrainedSchoolChoice2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=88e3e6d3f491508b90fd7376d31342a6}{%
+           family={Haeringer},
+           familyi={H\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d5a0a9c7026073d1edc27e0e76508d0e}{%
+           family={Klijn},
+           familyi={K\bibinitperiod},
+           given={Flip},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{fullhash}{38fde8447e95198760ccfefa2f757328}
+      \strng{fullhashraw}{38fde8447e95198760ccfefa2f757328}
+      \strng{bibnamehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authorbibnamehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authornamehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authorfullhash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authorfullhashraw}{38fde8447e95198760ccfefa2f757328}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recently, several school districts in the US have adopted or consider adopting the Student-Optimal Stable mechanism or the Top Trading Cycles mechanism to assign children to public schools. There is evidence that for school districts that employ (variants of) the so-called Boston mechanism the transition would lead to efficiency gains. The first two mechanisms are strategy-proof, but in practice student assignment procedures typically impede a student to submit a preference list that contains all his acceptable schools. We study the preference revelation game where students can only declare up to a fixed number of schools to be acceptable. We focus on the stability and efficiency of the Nash equilibrium outcomes. Our main results identify rather stringent necessary and sufficient conditions on the priorities to guarantee stability or efficiency of either of the two mechanisms. This stands in sharp contrast with the Boston mechanism which has been abandoned in many US school districts but nevertheless yields stable Nash equilibrium outcomes. © 2009 Elsevier Inc. All rights reserved.}
+      \field{issn}{00220531}
+      \field{journaltitle}{Journal of Economic Theory}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{5}
+      \field{shortjournal}{Journal of Economic Theory}
+      \field{title}{Constrained School Choice}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{144}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1921\bibrangedash 1947}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/j.jet.2009.05.002
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\5RCWZDYK\Haeringer and Klijn - 2009 - Constrained school choice.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S002205310900057X
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S002205310900057X
+      \endverb
+    \endentry
+    \entry{wilsonSchoolChoiceCity2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6116519f8287d0de123aaeb03208af38}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+        {{hash=69aadaaa3873c03674daeb219e4ae886}{%
+           family={Bridge},
+           familyi={B\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{fullhash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{fullhashraw}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{bibnamehash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{authorbibnamehash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{authornamehash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{authorfullhash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{authorfullhashraw}{f5c63164cc48a853e8394e07a25af6db}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Urban Studies}
+      \field{month}{7}
+      \field{number}{15}
+      \field{title}{School {{Choice}} and the City: {{Geographies}} of {{Allocation}} and {{Segregation}}}
+      \field{volume}{56}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{3198\bibrangedash 3215}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1177/0042098019843481
+      \endverb
+    \endentry
+    \entry{burgessParentalChoicePrimary2011}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=bfcc11f1936a9691bd5acaf4f7272bb4}{%
+           family={Burgess},
+           familyi={B\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=285df8412187fab017ffd55f0938ce0c}{%
+           family={Greaves},
+           familyi={G\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3f5a4d01b8f45824f4f27cb2f7110385}{%
+           family={Vignoles},
+           familyi={V\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6116519f8287d0de123aaeb03208af38}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f485f9fe1ac9e87429f172300cf891a8}
+      \strng{fullhash}{abb9d7cd769f10651ccf4910236f3878}
+      \strng{fullhashraw}{abb9d7cd769f10651ccf4910236f3878}
+      \strng{bibnamehash}{f485f9fe1ac9e87429f172300cf891a8}
+      \strng{authorbibnamehash}{f485f9fe1ac9e87429f172300cf891a8}
+      \strng{authornamehash}{f485f9fe1ac9e87429f172300cf891a8}
+      \strng{authorfullhash}{abb9d7cd769f10651ccf4910236f3878}
+      \strng{authorfullhashraw}{abb9d7cd769f10651ccf4910236f3878}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Policy Studies}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Parental Choice of Primary School in {{England}}: What Types of School Do Different Types of Familyreallyhave Available to Them?}
+      \field{volume}{32}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{531\bibrangedash 547}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1080/01442872.2011.601215
+      \endverb
+    \endentry
+    \entry{burgessSchoolChoiceEngland2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=bfcc11f1936a9691bd5acaf4f7272bb4}{%
+           family={Burgess},
+           familyi={B\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=285df8412187fab017ffd55f0938ce0c}{%
+           family={Greaves},
+           familyi={G\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3f5a4d01b8f45824f4f27cb2f7110385}{%
+           family={Vignoles},
+           familyi={V\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d77a6703c3e3ee17af7589971b506d29}
+      \strng{fullhash}{d77a6703c3e3ee17af7589971b506d29}
+      \strng{fullhashraw}{d77a6703c3e3ee17af7589971b506d29}
+      \strng{bibnamehash}{d77a6703c3e3ee17af7589971b506d29}
+      \strng{authorbibnamehash}{d77a6703c3e3ee17af7589971b506d29}
+      \strng{authornamehash}{d77a6703c3e3ee17af7589971b506d29}
+      \strng{authorfullhash}{d77a6703c3e3ee17af7589971b506d29}
+      \strng{authorfullhashraw}{d77a6703c3e3ee17af7589971b506d29}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Oxford Review of Education}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{School Choice in {{England}}: Evidence from National Administrative Data}
+      \field{volume}{45}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{690\bibrangedash 710}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/03054985.2019.1604332
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
