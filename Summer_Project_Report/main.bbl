@@ -19,138 +19,427 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{pathakSchoolAdmissionsReform2013}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=e75d96917751be05beac30ccd106dc84}{%
-           family={Pathak},
-           familyi={P\bibinitperiod},
-           given={Parag\bibnamedelima A},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=8073f6091c1c9c41b6684fbd2d0112aa}{%
-           family={Sönmez},
-           familyi={S\bibinitperiod},
-           given={Tayfun},
-           giveni={T\bibinitperiod}}}%
+    \entry{friedmanRoleGovernmentEducation1955}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ed599767cda235bc9b7bb0e787374d60}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Milton},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{fullhash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{fullhashraw}{71ba6ffb3525341d860bc888754d928c}
-      \strng{bibnamehash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{authorbibnamehash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{authornamehash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{authorfullhash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{authorfullhashraw}{71ba6ffb3525341d860bc888754d928c}
+      \strng{namehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{fullhash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{fullhashraw}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{bibnamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authorbibnamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authornamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authorfullhash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authorfullhashraw}{ed599767cda235bc9b7bb0e787374d60}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{American Economic Review}
-      \field{month}{2}
-      \field{number}{1}
-      \field{title}{School {{Admissions Reform}} in {{Chicago}} and {{England}}: {{Comparing Mechanisms}} by Their {{Vulnerability}} to {{Manipulation}}}
-      \field{volume}{103}
-      \field{year}{2013}
-      \field{dateera}{ce}
-      \field{pages}{80\bibrangedash 106}
-      \range{pages}{27}
-      \verb{doi}
-      \verb 10.1257/aer.103.1.80
-      \endverb
-      \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\MEIMEDAL\Pathak and Sönmez - 2013 - School Admissions Reform in Chicago and England Comparing Mechanisms by their Vulnerability to Mani.pdf
-      \endverb
-    \endentry
-    \entry{terrierImmediateAcceptanceDeferred}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=1e6047b57c25357a27e5bf5910d32ac7}{%
-           family={Terrier},
-           familyi={T\bibinitperiod},
-           given={Camille},
-           giveni={C\bibinitperiod}}}%
-        {{hash=e75d96917751be05beac30ccd106dc84}{%
-           family={Pathak},
-           familyi={P\bibinitperiod},
-           given={Parag\bibnamedelima A},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=66e81506834dcfca2d2ac5d1310ffa17}{%
-           family={Ren},
-           familyi={R\bibinitperiod},
-           given={Kevin},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{fullhash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{fullhashraw}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{bibnamehash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{authorbibnamehash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{authornamehash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{authorfullhash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{authorfullhashraw}{89cd246b4f157767da5980fe9124b9d5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Countries and cities around the world increasingly rely on centralized systems to assign students to schools. Two algorithms, deferred acceptance (DA) and immediate acceptance (IA), are widespread. The latter is often criticized for harming disadvantaged families who fail to get access to popular schools. This paper investigates the effect of the national ban of the IA mechanism in England in 2008. Before the ban, 49 English local authorities used DA and 16 used IA. All IA local authorities switched to DA afterwards, giving rise to a cross-market differencein-differences research design. Our results show that the elimination of IA reduces measures of school quality for low-SES students more than high-SES students. After the ban, low-SES students attend schools with lower value-added and more disadvantaged and low-achieving peers. This effect is primarily driven by a decrease in low-SES admissions at selective schools. Our findings point to an unintended consequence of the IA to DA transition: by encouraging highSES parents to report their preferences truthfully, DA increases competition for top schools, which crowds out low-SES students.}
+      \field{journaltitle}{Economics and the Public Interest}
       \field{langid}{english}
-      \field{title}{From {{Immediate Acceptance}} to {{Deferred Acceptance}}: {{Effects}} on {{School Admissions}} and {{Achievement}} in {{England}}}
+      \field{title}{The {{Role}} of {{Government}} in {{Education}}}
+      \field{year}{1955}
+      \field{dateera}{ce}
       \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\37MFT3NZ\Terrier et al. - From Immediate Acceptance to Deferred Acceptance Effects on School Admissions and Achievement in En.pdf
+      \verb C:\Users\aejp1u19\Zotero\storage\8LDV7NZ5\Cleaver - The Role of Government in Education.pdf
       \endverb
     \endentry
-    \entry{haeringerConstrainedSchoolChoice2009}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=88e3e6d3f491508b90fd7376d31342a6}{%
-           family={Haeringer},
-           familyi={H\bibinitperiod},
-           given={Guillaume},
-           giveni={G\bibinitperiod}}}%
-        {{hash=d5a0a9c7026073d1edc27e0e76508d0e}{%
-           family={Klijn},
-           familyi={K\bibinitperiod},
-           given={Flip},
-           giveni={F\bibinitperiod}}}%
+    \entry{gibbonsChoiceCompetitionPupil2008}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=eeeaf8a961d9bf66344a2651513042a2}{%
+           family={Gibbons},
+           familyi={G\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d805cb2e720d45cb623715f0750f64b0}{%
+           family={Machin},
+           familyi={M\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=891fe03f7000e36cd331bdd383e15b7d}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Olmo},
+           giveni={O\bibinitperiod}}}%
       }
-      \strng{namehash}{38fde8447e95198760ccfefa2f757328}
-      \strng{fullhash}{38fde8447e95198760ccfefa2f757328}
-      \strng{fullhashraw}{38fde8447e95198760ccfefa2f757328}
-      \strng{bibnamehash}{38fde8447e95198760ccfefa2f757328}
-      \strng{authorbibnamehash}{38fde8447e95198760ccfefa2f757328}
-      \strng{authornamehash}{38fde8447e95198760ccfefa2f757328}
-      \strng{authorfullhash}{38fde8447e95198760ccfefa2f757328}
-      \strng{authorfullhashraw}{38fde8447e95198760ccfefa2f757328}
+      \strng{namehash}{9dae480a279604ccd43a66849fa8dc56}
+      \strng{fullhash}{9dae480a279604ccd43a66849fa8dc56}
+      \strng{fullhashraw}{9dae480a279604ccd43a66849fa8dc56}
+      \strng{bibnamehash}{9dae480a279604ccd43a66849fa8dc56}
+      \strng{authorbibnamehash}{9dae480a279604ccd43a66849fa8dc56}
+      \strng{authornamehash}{9dae480a279604ccd43a66849fa8dc56}
+      \strng{authorfullhash}{9dae480a279604ccd43a66849fa8dc56}
+      \strng{authorfullhashraw}{9dae480a279604ccd43a66849fa8dc56}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Recently, several school districts in the US have adopted or consider adopting the Student-Optimal Stable mechanism or the Top Trading Cycles mechanism to assign children to public schools. There is evidence that for school districts that employ (variants of) the so-called Boston mechanism the transition would lead to efficiency gains. The first two mechanisms are strategy-proof, but in practice student assignment procedures typically impede a student to submit a preference list that contains all his acceptable schools. We study the preference revelation game where students can only declare up to a fixed number of schools to be acceptable. We focus on the stability and efficiency of the Nash equilibrium outcomes. Our main results identify rather stringent necessary and sufficient conditions on the priorities to guarantee stability or efficiency of either of the two mechanisms. This stands in sharp contrast with the Boston mechanism which has been abandoned in many US school districts but nevertheless yields stable Nash equilibrium outcomes. © 2009 Elsevier Inc. All rights reserved.}
-      \field{issn}{00220531}
-      \field{journaltitle}{Journal of Economic Theory}
-      \field{langid}{english}
-      \field{month}{9}
-      \field{number}{5}
-      \field{shortjournal}{Journal of Economic Theory}
-      \field{title}{Constrained School Choice}
-      \field{urlday}{1}
+      \field{abstract}{Choice and competition in education have recently found growing support from both policy-makers and academics. Yet evidence on the actual benefits of market-orientated reforms is at best mixed. Moreover, although the economic rationale for choice and competition is clear, in existing work there is rarely an attempt to distinguish between the two concepts. In this paper, we study whether pupils in Primary schools in England with a wider range of school choices achieve better academic outcomes than those whose choice is more limited; and whether Primary schools facing more competition perform better than those in a more monopolistic situation. In simple least squares regression models we find little evidence of a link between choice and achievement, but uncover a small positive association between competition and school performance. Yet this could be related to endogenous school location or pupil sorting. In fact, an instrumental variable strategy based on discontinuities generated by admissions district boundaries suggests that the performance gains from greater school competition are limited. Only when we restrict our attention to Voluntary Aided schools, which have more freedom in managing their governance and admission practices, do we find some evidence of a positive causal link between competition and pupil achievement.}
+      \field{day}{1}
+      \field{issn}{1542-4766}
+      \field{journaltitle}{Journal of the European Economic Association}
+      \field{month}{6}
+      \field{number}{4}
+      \field{shortjournal}{Journal of the European Economic Association}
+      \field{title}{Choice, {{Competition}}, and {{Pupil Achievement}}}
+      \field{urlday}{11}
       \field{urlmonth}{9}
       \field{urlyear}{2025}
-      \field{volume}{144}
-      \field{year}{2009}
+      \field{volume}{6}
+      \field{year}{2008}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{1921\bibrangedash 1947}
-      \range{pages}{27}
+      \field{pages}{912\bibrangedash 947}
+      \range{pages}{36}
       \verb{doi}
-      \verb 10.1016/j.jet.2009.05.002
+      \verb 10.1162/JEEA.2008.6.4.912
       \endverb
       \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\5RCWZDYK\Haeringer and Klijn - 2009 - Constrained school choice.pdf
+      \verb C\:\\Users\\aejp1u19\\Zotero\\storage\\2E7J3GSC\\Gibbons et al. - 2008 - Choice, Competition, and Pupil Achievement.pdf;C\:\\Users\\aejp1u19\\Zotero\\storage\\55CE85UY\\Gibbons et al. - 2008 - Choice, Competition, and Pupil Achievement.pdf
       \endverb
       \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S002205310900057X
+      \verb https://doi.org/10.1162/JEEA.2008.6.4.912
       \endverb
       \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S002205310900057X
+      \verb https://doi.org/10.1162/JEEA.2008.6.4.912
       \endverb
+    \endentry
+    \entry{hsiehEffectsGeneralizedSchool2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=26798c6ec7f127f0ef90aea3ce03b002}{%
+           family={Hsieh},
+           familyi={H\bibinitperiod},
+           given={Chang-Tai},
+           giveni={C\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=70819984f55ad44095ce332e2c9039fb}{%
+           family={Urquiola},
+           familyi={U\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7834adaa5da66068431a13ee782ac575}
+      \strng{fullhash}{7834adaa5da66068431a13ee782ac575}
+      \strng{fullhashraw}{7834adaa5da66068431a13ee782ac575}
+      \strng{bibnamehash}{7834adaa5da66068431a13ee782ac575}
+      \strng{authorbibnamehash}{7834adaa5da66068431a13ee782ac575}
+      \strng{authornamehash}{7834adaa5da66068431a13ee782ac575}
+      \strng{authorfullhash}{7834adaa5da66068431a13ee782ac575}
+      \strng{authorfullhashraw}{7834adaa5da66068431a13ee782ac575}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In 1981, Chile introduced nationwide school choice by providing vouchers to any student wishing to attend private school. As a result, more than 1000 private schools entered the market, and the private enrollment rate increased by 20 percentage points, with greater impacts in larger, more urban, and wealthier communities. We use this differential impact to measure the effects of unrestricted choice on educational outcomes. Using panel data for about 150 municipalities, we find no evidence that choice improved average educational outcomes as measured by test scores, repetition rates, and years of schooling. However, we find evidence that the voucher program led to increased sorting, as the bbestQ public school students left for the private sector.}
+      \field{issn}{00472727}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{8--9}
+      \field{shortjournal}{Journal of Public Economics}
+      \field{shorttitle}{The Effects of Generalized School Choice on Achievement and Stratification}
+      \field{title}{The Effects of Generalized School Choice on Achievement and Stratification: {{Evidence}} from {{Chile}}'s Voucher Program}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{90}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1477\bibrangedash 1503}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/j.jpubeco.2005.11.002
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\Q6GINSMX\Hsieh and Urquiola - 2006 - The effects of generalized school choice on achievement and stratification Evidence from Chile's vo.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0047272705001672
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0047272705001672
+      \endverb
+    \endentry
+    \entry{gleasonEvaluationCharterSchool}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=675b078fb19eabc9d67b388d2ae15a1b}{%
+           family={Gleason},
+           familyi={G\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d06cb95011c16611838f49f3c1b95c28}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cf8d56ebfa0f5d66fa6138e147348d09}{%
+           family={Tuttle},
+           familyi={T\bibinitperiod},
+           given={Christina\bibnamedelima Clark},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e0a35899479a2296a16542862924cf8f}{%
+           family={Dwoyer},
+           familyi={D\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{694bd4ccea1fea287c94490609d6ef4d}
+      \strng{fullhash}{de05f386ca102d9eb1b08852c2caedc8}
+      \strng{fullhashraw}{de05f386ca102d9eb1b08852c2caedc8}
+      \strng{bibnamehash}{694bd4ccea1fea287c94490609d6ef4d}
+      \strng{authorbibnamehash}{694bd4ccea1fea287c94490609d6ef4d}
+      \strng{authornamehash}{694bd4ccea1fea287c94490609d6ef4d}
+      \strng{authorfullhash}{de05f386ca102d9eb1b08852c2caedc8}
+      \strng{authorfullhashraw}{de05f386ca102d9eb1b08852c2caedc8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{The {{Evaluation}} of {{Charter School Impacts}}}
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\74CVXJW5\Gleason et al. - The Evaluation of Charter School Impacts.pdf
+      \endverb
+    \endentry
+    \entry{eppleSchoolVouchersSurvey2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d4fb4c017d962b340de2c7b911a2f193}{%
+           family={Epple},
+           familyi={E\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=53a45d51e45ca40b42a5417ff803feb5}{%
+           family={Romano},
+           familyi={R\bibinitperiod},
+           given={Richard\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=70819984f55ad44095ce332e2c9039fb}{%
+           family={Urquiola},
+           familyi={U\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf4ce828729b15f58364d6e192d63493}
+      \strng{fullhash}{bf4ce828729b15f58364d6e192d63493}
+      \strng{fullhashraw}{bf4ce828729b15f58364d6e192d63493}
+      \strng{bibnamehash}{bf4ce828729b15f58364d6e192d63493}
+      \strng{authorbibnamehash}{bf4ce828729b15f58364d6e192d63493}
+      \strng{authornamehash}{bf4ce828729b15f58364d6e192d63493}
+      \strng{authorfullhash}{bf4ce828729b15f58364d6e192d63493}
+      \strng{authorfullhashraw}{bf4ce828729b15f58364d6e192d63493}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We review the theoretical, computational, and empirical research on school vouchers, with a focus on the latter. Our assessment is that the evidence to date is not sufficient to warrant recommending that vouchers be adopted on a widespread basis; however, multiple positive findings support continued exploration. Specifically, the empirical research on small-scale programs does not suggest that awarding students a voucher is a systematically reliable way to improve educational outcomes, and some detrimental effects have been found. Nevertheless, in some settings, or for some subgroups or outcomes, vouchers can have a substantial positive effect on those who use them. Studies of large-scale voucher programs find student sorting as a result of their implementation, although of varying magnitude. Evidence on both small-scale and large-scale programs suggests that competition induced by vouchers leads public schools to improve. Moreover, research is making progress on understanding how vouchers may be designed to limit adverse effects from sorting, while preserving positive effects related to competition. Finally, our sense is that work originating in a single case (e.g., a given country) or in a single research approach (e.g., experimental designs) will not provide a full understanding of voucher effects; fairly wide-ranging empirical and theoretical work will be necessary to make progress.}
+      \field{issn}{0022-0515}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shorttitle}{School {{Vouchers}}}
+      \field{title}{School {{Vouchers}}: {{A Survey}} of the {{Economics Literature}}}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{55}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{441\bibrangedash 492}
+      \range{pages}{52}
+      \verb{doi}
+      \verb 10.1257/jel.20150679
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\JDRQABKL\Epple et al. - 2017 - School Vouchers A Survey of the Economics Literature.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aeaweb.org/articles?id=10.1257%2Fjel.20150679&utm_source=chatgpt.com
+      \endverb
+      \verb{url}
+      \verb https://www.aeaweb.org/articles?id=10.1257%2Fjel.20150679&utm_source=chatgpt.com
+      \endverb
+      \keyw{Analysis of Education,Economic Development: Human Resources; Human Development; Income Distribution; Migration,Education,Education: Government Policy,Educational Finance; Financial Aid,Financial Aid Education: Government Policy Economic Development: Human Resources,Human Development,Income Distribution,Migration,National Government Expenditures and Education,National Government Expenditures and Education State and Local Government: Health,Public Pensions Analysis of Education Educational Finance,State and Local Government: Health; Education; Welfare; Public Pensions,Welfare}
+    \endentry
+    \entry{quintero-fragozoEffectsSpatialCompetition2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ceea4d25d2549496e2c0de990fb5381c}{%
+           family={Quintero-Fragozo},
+           familyi={Q\bibinithyphendelim F\bibinitperiod},
+           given={Camilo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fcfb10a77e8459736bacc7cb3a9b5593}{%
+           family={Cortés},
+           familyi={C\bibinitperiod},
+           given={Yasna},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4af87548f23dcf2e0dff380f1ac14dc0}{%
+           family={Sarrias},
+           familyi={S\bibinitperiod},
+           given={Mauricio},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{7dee9fe358218241191dfc45e741348c}
+      \strng{fullhash}{7dee9fe358218241191dfc45e741348c}
+      \strng{fullhashraw}{7dee9fe358218241191dfc45e741348c}
+      \strng{bibnamehash}{7dee9fe358218241191dfc45e741348c}
+      \strng{authorbibnamehash}{7dee9fe358218241191dfc45e741348c}
+      \strng{authornamehash}{7dee9fe358218241191dfc45e741348c}
+      \strng{authorfullhash}{7dee9fe358218241191dfc45e741348c}
+      \strng{authorfullhashraw}{7dee9fe358218241191dfc45e741348c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This study analyzes the effect of spatial competition on public schools’ efficiency in Chile, an extreme case of market-oriented reforms in the educational sector. To address this issue, we use a measure of competition that captures three major characteristics of market competition in a spatial context: the number of competitors, based on distance buffers; the size of competitors, measured by the enrollment of voucher schools; and the geographical distance among public schools and their competitors. To control for the potential endogeneity of our measure of spatial competition on public schools’ efficiency, we use an instrumental variable based on the discontinuites generated by admissions municipality boundaries . We do not find evidence that public schools’ efficiency increases or decreases as the result of the increment of voucher schools located near to public schools, an increase in the enrollment of existing voucher schools, or both factors simultaneously. This result is robust to: (1) the limit of education market or other measures of spatial competition; (2) the methodology used to compute the efficiency measures; and (3) whether we explain efficiency or educational performance.}
+      \field{day}{2}
+      \field{issn}{0268-0939}
+      \field{journaltitle}{Journal of Education Policy}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{Effects of Spatial Competition on Public Educational Efficiency}
+      \field{title}{Effects of Spatial Competition on Public Educational Efficiency: An Analysis for the {{Chilean Metropolitan Region}}}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{38}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{115\bibrangedash 140}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1080/02680939.2021.1966102
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\2SXB3H5M\Quintero-Fragozo et al. - 2023 - Effects of spatial competition on public educational efficiency an analysis for the Chilean Metropo.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/02680939.2021.1966102
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/02680939.2021.1966102
+      \endverb
+      \keyw{Chile,Educational vouchers,public efficiency,spatial competition}
+    \endentry
+    \entry{wilsonSchoolChoiceCity2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6116519f8287d0de123aaeb03208af38}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+        {{hash=69aadaaa3873c03674daeb219e4ae886}{%
+           family={Bridge},
+           familyi={B\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{fullhash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{fullhashraw}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{bibnamehash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{authorbibnamehash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{authornamehash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{authorfullhash}{f5c63164cc48a853e8394e07a25af6db}
+      \strng{authorfullhashraw}{f5c63164cc48a853e8394e07a25af6db}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Urban Studies}
+      \field{month}{7}
+      \field{number}{15}
+      \field{title}{School {{Choice}} and the City: {{Geographies}} of {{Allocation}} and {{Segregation}}}
+      \field{volume}{56}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{3198\bibrangedash 3215}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1177/0042098019843481
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\AEPPAJ9N\Wilson and Bridge - 2019 - School choice and the city Geographies of allocation and segregation.pdf
+      \endverb
+    \endentry
+    \entry{burgessParentalChoicePrimary2011a}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=bfcc11f1936a9691bd5acaf4f7272bb4}{%
+           family={Burgess},
+           familyi={B\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=285df8412187fab017ffd55f0938ce0c}{%
+           family={Greaves},
+           familyi={G\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3f5a4d01b8f45824f4f27cb2f7110385}{%
+           family={Vignoles},
+           familyi={V\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6116519f8287d0de123aaeb03208af38}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RSA Website}%
+      }
+      \strng{namehash}{f485f9fe1ac9e87429f172300cf891a8}
+      \strng{fullhash}{abb9d7cd769f10651ccf4910236f3878}
+      \strng{fullhashraw}{abb9d7cd769f10651ccf4910236f3878}
+      \strng{bibnamehash}{f485f9fe1ac9e87429f172300cf891a8}
+      \strng{authorbibnamehash}{f485f9fe1ac9e87429f172300cf891a8}
+      \strng{authornamehash}{f485f9fe1ac9e87429f172300cf891a8}
+      \strng{authorfullhash}{abb9d7cd769f10651ccf4910236f3878}
+      \strng{authorfullhashraw}{abb9d7cd769f10651ccf4910236f3878}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article focuses on the constraints on parental choice of school caused by geographical location, which arise due to the reliance on geographical proximity as the key oversubscription criterion for allocating school places. We investigate the assumption that most families really can choose between a range of different schools, and ask what types of school are genuinely accessible to different types of pupil. Using an innovative combination of survey and administrative data, we first determine what types of school are located near different family types. We then investigate how many of these different types of school are really available to the student, based on current catchment areas of schools and the home location of the child. This enables us to assess how access is determined by geography, and how it differs both by school type and by type of family. We show that using proximity as the main criterion to determine access to most schools affects pupils’ probability of securing a place at a particular school, with higher socio-economic status (SES) pupils being more likely to be accepted into (nearer) more advantaged schools. We argue that the large differences in the range of schools genuinely available to different families, coupled with the use of proximity as a tie-break device, continues to be a significant barrier to reducing inequality of access in the English school system.}
+      \field{day}{1}
+      \field{issn}{0144-2872}
+      \field{journaltitle}{Policy Studies}
+      \field{month}{9}
+      \field{number}{5}
+      \field{shorttitle}{Parental Choice of Primary School in {{England}}}
+      \field{title}{Parental Choice of Primary School in {{England}}: What Types of School Do Different Types of Family Really Have Available to Them?}
+      \field{urlday}{5}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{32}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{531\bibrangedash 547}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1080/01442872.2011.601215
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\HMN34JUE\Burgess et al. - 2011 - Parental choice of primary school in England what types of school do different types of family real.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/01442872.2011.601215
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/01442872.2011.601215
+      \endverb
+      \keyw{parental choice,school choice,school preferences}
     \endentry
     \entry{burgessSchoolChoiceEngland2019}{article}{}{}
       \name{author}{3}{}{%
@@ -199,6 +488,196 @@
       \endverb
       \keyw{education inequality,pupil achievement,School admissions,school choice}
     \endentry
+    \entry{abdulkadirogluSchoolChoiceMechanism2003}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9210d7a0646d485f1f21951c61c52cd2}{%
+           family={Abdulkadiroğlu},
+           familyi={A\bibinitperiod},
+           given={Atila},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8073f6091c1c9c41b6684fbd2d0112aa}{%
+           family={Sönmez},
+           familyi={S\bibinitperiod},
+           given={Tayfun},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ea8bbd7b953270c0887a3a025b4e285}
+      \strng{fullhash}{3ea8bbd7b953270c0887a3a025b4e285}
+      \strng{fullhashraw}{3ea8bbd7b953270c0887a3a025b4e285}
+      \strng{bibnamehash}{3ea8bbd7b953270c0887a3a025b4e285}
+      \strng{authorbibnamehash}{3ea8bbd7b953270c0887a3a025b4e285}
+      \strng{authornamehash}{3ea8bbd7b953270c0887a3a025b4e285}
+      \strng{authorfullhash}{3ea8bbd7b953270c0887a3a025b4e285}
+      \strng{authorfullhashraw}{3ea8bbd7b953270c0887a3a025b4e285}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A central issue in school choice is the design of a student assignment mechanism. Education literature provides guidance for the design of such mechanisms but does not offer specific mechanisms. The flaws in the existing school choice plans result in appeals by unsatisfied parents. We formulate the school choice problem as a mechanism design problem and analyze some of the existing school choice plans including those in Boston, Columbus, Minneapolis, and Seattle. We show that these existing plans have serious shortcomings, and offer two alternative mechanisms each of which may provide a practical solution to some critical school choice issues.}
+      \field{day}{1}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{American Economic Review}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{3}
+      \field{shortjournal}{American Economic Review}
+      \field{shorttitle}{School {{Choice}}}
+      \field{title}{School {{Choice}}: {{A Mechanism Design Approach}}}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{93}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{729\bibrangedash 747}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1257/000282803322157061
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\aejp1u19\\Zotero\\storage\\PPSFNVQP\\Abdulkadiroğlu and Sönmez - 2003 - School Choice A Mechanism Design Approach.pdf;C\:\\Users\\aejp1u19\\Zotero\\storage\\T7DVJNI4\\Abdulkadiroğlu and Sönmez - 2003 - School Choice A Mechanism Design Approach.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.aeaweb.org/doi/10.1257/000282803322157061
+      \endverb
+      \verb{url}
+      \verb https://pubs.aeaweb.org/doi/10.1257/000282803322157061
+      \endverb
+    \endentry
+    \entry{pathakSchoolAdmissionsReform2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e75d96917751be05beac30ccd106dc84}{%
+           family={Pathak},
+           familyi={P\bibinitperiod},
+           given={Parag\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8073f6091c1c9c41b6684fbd2d0112aa}{%
+           family={Sönmez},
+           familyi={S\bibinitperiod},
+           given={Tayfun},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{fullhash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{fullhashraw}{71ba6ffb3525341d860bc888754d928c}
+      \strng{bibnamehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authorbibnamehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authornamehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authorfullhash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authorfullhashraw}{71ba6ffb3525341d860bc888754d928c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{School {{Admissions Reform}} in {{Chicago}} and {{England}}: {{Comparing Mechanisms}} by Their {{Vulnerability}} to {{Manipulation}}}
+      \field{volume}{103}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{80\bibrangedash 106}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1257/aer.103.1.80
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\MEIMEDAL\Pathak and Sönmez - 2013 - School Admissions Reform in Chicago and England Comparing Mechanisms by their Vulnerability to Mani.pdf
+      \endverb
+    \endentry
+    \entry{terrierImmediateAcceptanceDeferred}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1e6047b57c25357a27e5bf5910d32ac7}{%
+           family={Terrier},
+           familyi={T\bibinitperiod},
+           given={Camille},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e75d96917751be05beac30ccd106dc84}{%
+           family={Pathak},
+           familyi={P\bibinitperiod},
+           given={Parag\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=66e81506834dcfca2d2ac5d1310ffa17}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{fullhash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{fullhashraw}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{bibnamehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authorbibnamehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authornamehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authorfullhash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authorfullhashraw}{89cd246b4f157767da5980fe9124b9d5}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Countries and cities around the world increasingly rely on centralized systems to assign students to schools. Two algorithms, deferred acceptance (DA) and immediate acceptance (IA), are widespread. The latter is often criticized for harming disadvantaged families who fail to get access to popular schools. This paper investigates the effect of the national ban of the IA mechanism in England in 2008. Before the ban, 49 English local authorities used DA and 16 used IA. All IA local authorities switched to DA afterwards, giving rise to a cross-market differencein-differences research design. Our results show that the elimination of IA reduces measures of school quality for low-SES students more than high-SES students. After the ban, low-SES students attend schools with lower value-added and more disadvantaged and low-achieving peers. This effect is primarily driven by a decrease in low-SES admissions at selective schools. Our findings point to an unintended consequence of the IA to DA transition: by encouraging highSES parents to report their preferences truthfully, DA increases competition for top schools, which crowds out low-SES students.}
+      \field{langid}{english}
+      \field{title}{From {{Immediate Acceptance}} to {{Deferred Acceptance}}: {{Effects}} on {{School Admissions}} and {{Achievement}} in {{England}}}
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\37MFT3NZ\Terrier et al. - From Immediate Acceptance to Deferred Acceptance Effects on School Admissions and Achievement in En.pdf
+      \endverb
+    \endentry
+    \entry{haeringerConstrainedSchoolChoice2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=88e3e6d3f491508b90fd7376d31342a6}{%
+           family={Haeringer},
+           familyi={H\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d5a0a9c7026073d1edc27e0e76508d0e}{%
+           family={Klijn},
+           familyi={K\bibinitperiod},
+           given={Flip},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{fullhash}{38fde8447e95198760ccfefa2f757328}
+      \strng{fullhashraw}{38fde8447e95198760ccfefa2f757328}
+      \strng{bibnamehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authorbibnamehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authornamehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authorfullhash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authorfullhashraw}{38fde8447e95198760ccfefa2f757328}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recently, several school districts in the US have adopted or consider adopting the Student-Optimal Stable mechanism or the Top Trading Cycles mechanism to assign children to public schools. There is evidence that for school districts that employ (variants of) the so-called Boston mechanism the transition would lead to efficiency gains. The first two mechanisms are strategy-proof, but in practice student assignment procedures typically impede a student to submit a preference list that contains all his acceptable schools. We study the preference revelation game where students can only declare up to a fixed number of schools to be acceptable. We focus on the stability and efficiency of the Nash equilibrium outcomes. Our main results identify rather stringent necessary and sufficient conditions on the priorities to guarantee stability or efficiency of either of the two mechanisms. This stands in sharp contrast with the Boston mechanism which has been abandoned in many US school districts but nevertheless yields stable Nash equilibrium outcomes. © 2009 Elsevier Inc. All rights reserved.}
+      \field{issn}{00220531}
+      \field{journaltitle}{Journal of Economic Theory}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{5}
+      \field{shortjournal}{Journal of Economic Theory}
+      \field{title}{Constrained School Choice}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{144}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1921\bibrangedash 1947}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/j.jet.2009.05.002
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\5RCWZDYK\Haeringer and Klijn - 2009 - Constrained school choice.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S002205310900057X
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S002205310900057X
+      \endverb
+    \endentry
     \entry{erdilWhatsMatterTieBreaking2008}{article}{}{}
       \name{author}{2}{}{%
         {{hash=27a946ac0f64e6b6a7e1a095f58caa44}{%
@@ -221,8 +700,8 @@
       \strng{authorfullhash}{1247f35bfaf2ca84b6f788f0147f60b6}
       \strng{authorfullhashraw}{1247f35bfaf2ca84b6f788f0147f60b6}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In several school choice districts in the United States, the student proposing deferred acceptance algorithm is applied after indifferences in priority orders are broken in some exogenous way. Although such a tie-breaking procedure preserves stability, it adversely affects the welfare of the students since it introduces artificial stability constraints. Our main finding is a polynomial-time algorithm for the computation of a student-optimal stable matching when priorities are weak. The idea behind our construction relies on a new notion which we call a stable improvement cycle. We also investigate the strategic properties of the student-optimal stable mechanism. (JEL C78, D82, I21)}
@@ -280,8 +759,8 @@
       \strng{authorfullhash}{1247f35bfaf2ca84b6f788f0147f60b6}
       \strng{authorfullhashraw}{1247f35bfaf2ca84b6f788f0147f60b6}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Most of the two-sided matching literature maintains the assumption that agents are never indifferent between any two members of the opposite side. In practice, however, ties in preferences arise naturally and are widespread. Market design needs to handle ties carefully, because in the presence of indifferences, stability no longer implies Pareto efficiency, and the deferred acceptance algorithm cannot be applied to produce a Pareto efficient or a worker-optimal stable matching. We allow ties in preference rankings and show that the Pareto dominance relation on stable matchings can be captured by two simple operations which involve rematching of workers and firms via cycles or chains. Likewise, the Pareto relation defined via workers' welfare can also be broken down to two similar procedures which preserve stability. Using these structural results we design fast algorithms to compute a Pareto efficient and stable matching, and a worker-optimal stable matching.}
@@ -333,8 +812,8 @@
       \strng{authornamehash}{320ab47af0997a7a69af46760b320783}
       \strng{authorfullhash}{320ab47af0997a7a69af46760b320783}
       \strng{authorfullhashraw}{320ab47af0997a7a69af46760b320783}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{This paper considers some game-theoretic aspects of matching problems and procedures, of the sort which involve matching the members of one group of agents with one or more members of a second, disjoint group of agents, ail of whom have preferences over the possible resulting matches. The main focus of this paper is on determining the extent to which matching procedures can be designed which give agents the incentive to honestly reveal their preferences, and which produce stable matches. Two principal results are demonstrated. The first is that no matching procedure exists which always yields a stable outcome and gives players the incentive to reveal their true preferences, even though procedures exist which accomplish either of these goals separately. The second result is that matching procedures do exist, however, which always yield a stable outcome and which always give all the agents in one of the two disjoint sets of agents the incentive to reveal their true preferences.}
@@ -386,8 +865,8 @@
       \strng{authornamehash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
       \strng{authorfullhash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
       \strng{authorfullhashraw}{f7d5b65b4149bbe5e07d4dcb383f6de3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper proposes a novel school choice system where schools are grouped into hierarchical bundles and offered to students as options for preference reports. By listing a bundle, a student seeks admission to any school within it without ranking these schools. This approach helps students who struggle to rank schools precisely and expands options on limited preference lists, potentially improving match outcomes. We design a modified deferred acceptance mechanism to handle bundle reports while preserving stability. Laboratory experiments support our theory, showing that well-constructed bundles aligned with student preferences enhance welfare and match rates without compromising fairness. Practical applications are discussed.}
@@ -451,8 +930,8 @@
       \strng{authornamehash}{2806be03fbde3b1e4bd3c828d2eeb993}
       \strng{authorfullhash}{e45f4abdcdb57b5cef6519262d961013}
       \strng{authorfullhashraw}{e45f4abdcdb57b5cef6519262d961013}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We investigate sequential two-stage admission systems with public and private schools. A sequential notion of truthfulness, called straightforwardness, is introduced. Contrary to one-stage systems, sequentiality leads to a trade-off between the existence of a straightforward equilibrium and non-wastefulness. We identify the unique set of rules for two-stage systems that guarantees the existence of a straightforward equilibrium and reduces waste. Existing admission systems in Türkiye and Sweden are analyzed within our general framework.}
@@ -485,114 +964,6 @@
       \verb{url}
       \verb https://doi.org/10.1007/s00355-024-01527-0
       \endverb
-    \endentry
-    \entry{wilsonSchoolChoiceCity2019}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=6116519f8287d0de123aaeb03208af38}{%
-           family={Wilson},
-           familyi={W\bibinitperiod},
-           given={Deborah},
-           giveni={D\bibinitperiod}}}%
-        {{hash=69aadaaa3873c03674daeb219e4ae886}{%
-           family={Bridge},
-           familyi={B\bibinitperiod},
-           given={Gary},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{f5c63164cc48a853e8394e07a25af6db}
-      \strng{fullhash}{f5c63164cc48a853e8394e07a25af6db}
-      \strng{fullhashraw}{f5c63164cc48a853e8394e07a25af6db}
-      \strng{bibnamehash}{f5c63164cc48a853e8394e07a25af6db}
-      \strng{authorbibnamehash}{f5c63164cc48a853e8394e07a25af6db}
-      \strng{authornamehash}{f5c63164cc48a853e8394e07a25af6db}
-      \strng{authorfullhash}{f5c63164cc48a853e8394e07a25af6db}
-      \strng{authorfullhashraw}{f5c63164cc48a853e8394e07a25af6db}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Urban Studies}
-      \field{month}{7}
-      \field{number}{15}
-      \field{title}{School {{Choice}} and the City: {{Geographies}} of {{Allocation}} and {{Segregation}}}
-      \field{volume}{56}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{pages}{3198\bibrangedash 3215}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1177/0042098019843481
-      \endverb
-    \endentry
-    \entry{burgessParentalChoicePrimary2011a}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=bfcc11f1936a9691bd5acaf4f7272bb4}{%
-           family={Burgess},
-           familyi={B\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod}}}%
-        {{hash=285df8412187fab017ffd55f0938ce0c}{%
-           family={Greaves},
-           familyi={G\bibinitperiod},
-           given={Ellen},
-           giveni={E\bibinitperiod}}}%
-        {{hash=3f5a4d01b8f45824f4f27cb2f7110385}{%
-           family={Vignoles},
-           familyi={V\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6116519f8287d0de123aaeb03208af38}{%
-           family={Wilson},
-           familyi={W\bibinitperiod},
-           given={Deborah},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {RSA Website}%
-      }
-      \strng{namehash}{f485f9fe1ac9e87429f172300cf891a8}
-      \strng{fullhash}{abb9d7cd769f10651ccf4910236f3878}
-      \strng{fullhashraw}{abb9d7cd769f10651ccf4910236f3878}
-      \strng{bibnamehash}{f485f9fe1ac9e87429f172300cf891a8}
-      \strng{authorbibnamehash}{f485f9fe1ac9e87429f172300cf891a8}
-      \strng{authornamehash}{f485f9fe1ac9e87429f172300cf891a8}
-      \strng{authorfullhash}{abb9d7cd769f10651ccf4910236f3878}
-      \strng{authorfullhashraw}{abb9d7cd769f10651ccf4910236f3878}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This article focuses on the constraints on parental choice of school caused by geographical location, which arise due to the reliance on geographical proximity as the key oversubscription criterion for allocating school places. We investigate the assumption that most families really can choose between a range of different schools, and ask what types of school are genuinely accessible to different types of pupil. Using an innovative combination of survey and administrative data, we first determine what types of school are located near different family types. We then investigate how many of these different types of school are really available to the student, based on current catchment areas of schools and the home location of the child. This enables us to assess how access is determined by geography, and how it differs both by school type and by type of family. We show that using proximity as the main criterion to determine access to most schools affects pupils’ probability of securing a place at a particular school, with higher socio-economic status (SES) pupils being more likely to be accepted into (nearer) more advantaged schools. We argue that the large differences in the range of schools genuinely available to different families, coupled with the use of proximity as a tie-break device, continues to be a significant barrier to reducing inequality of access in the English school system.}
-      \field{day}{1}
-      \field{issn}{0144-2872}
-      \field{journaltitle}{Policy Studies}
-      \field{month}{9}
-      \field{number}{5}
-      \field{shorttitle}{Parental Choice of Primary School in {{England}}}
-      \field{title}{Parental Choice of Primary School in {{England}}: What Types of School Do Different Types of Family Really Have Available to Them?}
-      \field{urlday}{5}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
-      \field{volume}{32}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{531\bibrangedash 547}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1080/01442872.2011.601215
-      \endverb
-      \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\HMN34JUE\Burgess et al. - 2011 - Parental choice of primary school in England what types of school do different types of family real.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1080/01442872.2011.601215
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1080/01442872.2011.601215
-      \endverb
-      \keyw{parental choice,school choice,school preferences}
     \endentry
     \entry{averyDistributionalConsequencesPublic2021}{article}{}{}
       \name{author}{2}{}{%
@@ -699,6 +1070,120 @@
       \verb https://www.ssrn.com/abstract=4727231
       \endverb
     \endentry
+    \entry{edwardsJustOutReach2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=911d79638bfb4c19a80effa807bbbf2a}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Danielle\bibnamedelima Sanderson},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Educational Research Association}%
+      }
+      \strng{namehash}{911d79638bfb4c19a80effa807bbbf2a}
+      \strng{fullhash}{911d79638bfb4c19a80effa807bbbf2a}
+      \strng{fullhashraw}{911d79638bfb4c19a80effa807bbbf2a}
+      \strng{bibnamehash}{911d79638bfb4c19a80effa807bbbf2a}
+      \strng{authorbibnamehash}{911d79638bfb4c19a80effa807bbbf2a}
+      \strng{authornamehash}{911d79638bfb4c19a80effa807bbbf2a}
+      \strng{authorfullhash}{911d79638bfb4c19a80effa807bbbf2a}
+      \strng{authorfullhashraw}{911d79638bfb4c19a80effa807bbbf2a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Research concerning family preferences for schooling indicates that they value proximity to home as much as academic quality when choosing schools. However, preferences for proximity likely represent inability to access schools farther away from home, especially for disadvantaged students. I test whether distance and district boundaries constrain access to high-performing and effective schools for Detroit students where families choose between intradistrict, interdistrict, and charter schools, as well as an assigned school. I employ a unique data set that includes enrollment records, addresses, and commute times for Detroit residents regardless of where they attend school. Results show that disadvantaged students have little access to the highest quality schools available, specifically those outside Detroit. However, students attend higher performing schools within Detroit.}
+      \field{day}{1}
+      \field{issn}{0162-3737}
+      \field{journaltitle}{Educational Evaluation and Policy Analysis}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shorttitle}{Just {{Out}} of {{Reach}}?}
+      \field{title}{Just {{Out}} of {{Reach}}? {{Unrestrained Supply}}, {{Constrained Demand}}, and {{Access}} to {{Effective Schools}} in and {{Around Detroit}}}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{43}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{391\bibrangedash 418}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.3102/0162373721996738
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\SPLGMMTM\Edwards - 2021 - Just Out of Reach Unrestrained Supply, Constrained Demand, and Access to Effective Schools in and A.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3102/0162373721996738
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3102/0162373721996738
+      \endverb
+    \endentry
+    \entry{trajkovskiSchoolBusesMake2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c950bd5587cb6ef9013f1e23cd272f72}{%
+           family={Trajkovski},
+           familyi={T\bibinitperiod},
+           given={Samantha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=01ad1969e12a0e5c0412ac260d3aba9b}{%
+           family={Zabel},
+           familyi={Z\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d9d0e6eed6b3559a554d849ca89506d1}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={Amy\bibnamedelima Ellen},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{58818c6c24f4485e0f0d8f68c951fac4}
+      \strng{fullhash}{58818c6c24f4485e0f0d8f68c951fac4}
+      \strng{fullhashraw}{58818c6c24f4485e0f0d8f68c951fac4}
+      \strng{bibnamehash}{58818c6c24f4485e0f0d8f68c951fac4}
+      \strng{authorbibnamehash}{58818c6c24f4485e0f0d8f68c951fac4}
+      \strng{authornamehash}{58818c6c24f4485e0f0d8f68c951fac4}
+      \strng{authorfullhash}{58818c6c24f4485e0f0d8f68c951fac4}
+      \strng{authorfullhashraw}{58818c6c24f4485e0f0d8f68c951fac4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While school choice has been well studied, there is little existing research exploring the role of transportation, in general, and school buses, in particular, to school choice decisions. We examine the effect of school buses on school choice decisions using data on kindergarten students and their eligibility for transportation assistance in New York City public schools in 2017. Using both conditional logit school choice models and regression discontinuity designs, we provide both descriptive and credibly causal evidence on the impact of school proximity, bus eligibility, and their interaction on school choice decisions. Our results indicate that proximity and buses both matter. Specifically, while distance significantly deters choice, school bus eligibility increases the likelihood of choosing a school by 1.4–4 percentage points (or 12-30 percent). Compared to a high-quality school, we find that bus eligibility has twice as large an impact on reducing the negative distance effect in the 0.5 to 1 mile range from school (27 versus 12 percent). These results will be useful for policy makers looking to leverage school transportation policy to improve school choice decisions, and ultimately student outcomes.}
+      \field{day}{1}
+      \field{issn}{0166-0462}
+      \field{journaltitle}{Regional Science and Urban Economics}
+      \field{month}{1}
+      \field{shortjournal}{Regional Science and Urban Economics}
+      \field{title}{Do School Buses Make School Choice Work?}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{86}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103607}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.regsciurbeco.2020.103607
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\aejp1u19\\Zotero\\storage\\LM9GIV5R\\Trajkovski et al. - 2021 - Do school buses make school choice work.pdf;C\:\\Users\\aejp1u19\\Zotero\\storage\\VFMBKE9E\\S0166046220302921.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0166046220302921
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0166046220302921
+      \endverb
+      \keyw{School choice,School transportation}
+    \endentry
     \entry{burgessWhatParentsWant2015}{article}{}{}
       \name{author}{4}{}{%
         {{hash=bfcc11f1936a9691bd5acaf4f7272bb4}{%
@@ -731,8 +1216,8 @@
       \strng{authorfullhash}{abb9d7cd769f10651ccf4910236f3878}
       \strng{authorfullhashraw}{abb9d7cd769f10651ccf4910236f3878}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{We investigate parents’ preferences for school attributes in a unique data set of survey, administrative, census and spatial data. Using a conditional logit, incorporating characteristics of households, schools and home–school distance, we show that most families have strong preferences for schools’ academic performance. Parents also value schools’ socio‐economic composition and distance, which may limit the potential of school choice to improve academic standards. Most of the variation in preferences for school quality across socio‐economic groups arises from differences in the quality of accessible schools rather than differences in parents’ preferences, although more advantaged parents have stronger preferences for academic performance.}
@@ -782,8 +1267,8 @@
       \strng{authornamehash}{57705238455e800d4dbfbd8f2a03228d}
       \strng{authorfullhash}{57705238455e800d4dbfbd8f2a03228d}
       \strng{authorfullhashraw}{57705238455e800d4dbfbd8f2a03228d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Conventional wisdom claims that racial diversity undermines public goods provision. I show that class-based differences, instead, incentivize cooperation for public goods. Class-based segregation reduces spatial externalities of inequality (e.g., sewage pollution and crime) spilling over from impoverished areas (e.g., slums) to the middle class. Conversely, I argue that in integrated (de-segregated) cities, the scale of such externalities undermines the efficacy of private services (e.g., private security), thereby inducing middle-class preferences for externalities-correcting public goods. Thus, while segregation polarizes preferences, integration aligns the middle class with the poor in coalitions that support public goods over private alternatives. I illustrate the theory using focus groups, a proposed quasi-experimental strategy, and an original face-to-face survey of 4,208 households across 420 neighborhoods in São Paulo, Brazil. The analysis introduces self-interest in reducing intergroup externalities as a mechanism for cooperation for public goods even in diverse societies. Using mechanism vignettes, I distinguish the mechanism from the affective attitudes—racial tolerance, social affinity—of intergroup contact.}
@@ -842,8 +1327,8 @@
       \strng{authornamehash}{d50006df220fc29ad1a86c08f467032c}
       \strng{authorfullhash}{d50006df220fc29ad1a86c08f467032c}
       \strng{authorfullhashraw}{d50006df220fc29ad1a86c08f467032c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The Moving to Opportunity (MTO) experiment offered randomly selected families housing vouchers to move from high-poverty housing projects to lower-poverty neighborhoods. We analyze MTO's impacts on children's long-term outcomes using tax data. We find that moving to a lower-poverty neighborhood when young (before age 13) increases college attendance and earnings and reduces single parenthood rates. Moving as an adolescent has slightly negative impacts, perhaps because of disruption effects. The decline in the gains from moving with the age when children move suggests that the duration of exposure to better environments during childhood is an important determinant of children's long-term outcomes. (JEL I31, I38, J13, R23, R38)}
@@ -898,8 +1383,8 @@
       \strng{authornamehash}{f021a7a959090b437ad87e966751dc69}
       \strng{authorfullhash}{f021a7a959090b437ad87e966751dc69}
       \strng{authorfullhashraw}{f021a7a959090b437ad87e966751dc69}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{We show that the neighborhoods in which children grow up shape their earnings, college attendance rates, and fertility and marriage patterns by studying more than 7 million families who move across commuting zones and counties in the United States. Exploiting variation in the age of children when families move, we find that neighborhoods have significant childhood exposure effects: the outcomes of children whose families move to a better neighborhood—as measured by the outcomes of children already living there—improve linearly in proportion to the amount of time they spend growing up in that area, at a rate of approximately 4\% per year of exposure. We distinguish the causal effects of neighborhoods from confounding factors by comparing the outcomes of siblings within families, studying moves triggered by displacement shocks, and exploiting sharp variation in predicted place effects across birth cohorts, genders, and quantiles to implement overidentification tests. The findings show that neighborhoods affect intergenerational mobility primarily through childhood exposure, helping reconcile conflicting results in the prior literature.}
@@ -959,8 +1444,8 @@
       \strng{authornamehash}{3cd3a4a53dafd9282020e9897ecb3546}
       \strng{authorfullhash}{3cd3a4a53dafd9282020e9897ecb3546}
       \strng{authorfullhashraw}{3cd3a4a53dafd9282020e9897ecb3546}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Social interactions may explain the large variance in criminal activity across neighborhoods and time. We present direct evidence of social spillovers in crime using random variation in neighborhood residence along opposite sides of a newly drawn school boundary. We first show evidence for agglomeration effects—within small neighborhood areas, grouping more disadvantaged students together in the same school increases total crime. We then show that these youths are more likely to be arrested for committing crimes together—to be "partners in crime". Our results show that neighborhood and school segregation increase crime by fostering social interactions between at-risk youth.}
@@ -992,6 +1477,106 @@
       \verb https://www.aeaweb.org/articles?id=10.1257/app.20170249
       \endverb
       \keyw{Child Care,Children,Economic Anthropology,Economic Sociology; Economic Anthropology; Language; Social and Economic Stratification,Education and Inequality,Education and Inequality Education: Government Policy Fertility,Education: Government Policy,Family Planning,Fertility; Family Planning; Child Care; Children; Youth,Illegal Behavior and the Enforcement of Law,Language,Neighborhood Characteristics Economic Sociology,Population,Regional Economic Activity: Growth Development Environmental Issues and Changes,Regional Labor Markets,Social and Economic Stratification,Urban Rural Regional Real Estate and Transportation Economics: Regional Migration; Regional Labor Markets; Population; Neighborhood Characteristics,Youth Illegal Behavior and the Enforcement of Law Regional Economic Activity: Growth Development Environmental Issues and Changes Urban Rural Regional Real Estate and Transportation Economics: Regional Migration}
+    \endentry
+    \entry{sattin-bajajStudentTransportationChoiceRich2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=19c40947410bdb64d2c162f000ea37ce}{%
+           family={Sattin-Bajaj},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={Carolyn},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{19c40947410bdb64d2c162f000ea37ce}
+      \strng{fullhash}{19c40947410bdb64d2c162f000ea37ce}
+      \strng{fullhashraw}{19c40947410bdb64d2c162f000ea37ce}
+      \strng{bibnamehash}{19c40947410bdb64d2c162f000ea37ce}
+      \strng{authorbibnamehash}{19c40947410bdb64d2c162f000ea37ce}
+      \strng{authornamehash}{19c40947410bdb64d2c162f000ea37ce}
+      \strng{authorfullhash}{19c40947410bdb64d2c162f000ea37ce}
+      \strng{authorfullhashraw}{19c40947410bdb64d2c162f000ea37ce}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Despite a growing recognition of the significance of student transportation for promoting equitable school choice, to date, there has been limited understanding of the implementation of school transportation policies, particularly in choice-heavy settings. Moreover, little is known about the challenges associated with managing student transportation in large school districts or how school and district administrators working in distinct contexts respond to these challenges. This brief draws on interview data collected from district administrators, charter school leaders, charter authorizers, and stakeholders in three choice-rich school districts with distinct transportation policies and public transit infrastructures—Detroit, New Orleans, and New York City—to identify the common challenges associated with implementing student transportation policies and administrators’ responses to them. The brief includes a discussion of the implications of high transportation costs, logistical complexity, and student safety challenges as well as non-uniform transportation provision and transportation policies for equitable access to charter schools. It ends with a review of some potential policy alternatives that policymakers should consider when designing transportation policies or working to improve existing transportation practices.}
+      \field{day}{20}
+      \field{issn}{1557-3060}
+      \field{journaltitle}{Education Finance and Policy}
+      \field{month}{3}
+      \field{number}{2}
+      \field{shortjournal}{Education Finance and Policy}
+      \field{shorttitle}{Student {{Transportation}} in {{Choice-Rich Districts}}}
+      \field{title}{Student {{Transportation}} in {{Choice-Rich Districts}}: {{Implementation Challenges}} and {{Responses}}}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{351\bibrangedash 364}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1162/edfp_a_00377
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\U4DJVDNK\Sattin-Bajaj - 2023 - Student Transportation in Choice-Rich Districts Implementation Challenges and Responses.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162/edfp_a_00377
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162/edfp_a_00377
+      \endverb
+    \endentry
+    \entry{cordesDoesPupilTransportation2018}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=21efa7d23bba5f5bce55f6cd266e236b}{%
+           family={Cordes},
+           familyi={C\bibinitperiod},
+           given={Sarah\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d9d0e6eed6b3559a554d849ca89506d1}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={Amy\bibnamedelima Ellen},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Urban Institute}%
+      }
+      \strng{namehash}{282530df6919f23333be810995047ca2}
+      \strng{fullhash}{282530df6919f23333be810995047ca2}
+      \strng{fullhashraw}{282530df6919f23333be810995047ca2}
+      \strng{bibnamehash}{282530df6919f23333be810995047ca2}
+      \strng{authorbibnamehash}{282530df6919f23333be810995047ca2}
+      \strng{authornamehash}{282530df6919f23333be810995047ca2}
+      \strng{authorfullhash}{282530df6919f23333be810995047ca2}
+      \strng{authorfullhashraw}{282530df6919f23333be810995047ca2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using uniquely detailed individual-level data on transportation provided to all New York City public school students, we examine the relationship between tra…}
+      \field{day}{17}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Does {{Pupil Transportation Close}} the {{School Quality Gap}}?}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\UCWMT34L\Cordes and Schwartz - 2018 - Does Pupil Transportation Close the School Quality Gap.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.urban.org/research/publication/does-pupil-transportation-close-school-quality-gap
+      \endverb
+      \verb{url}
+      \verb https://www.urban.org/research/publication/does-pupil-transportation-close-school-quality-gap
+      \endverb
     \endentry
     \entry{michailidisTacklingSchoolSegregation2024}{article}{}{}
       \name{author}{4}{}{%
@@ -1098,8 +1683,8 @@
       \strng{authornamehash}{f33e1ebba6a119758eaa3ee131d7b3cb}
       \strng{authorfullhash}{4417b591b350312e289d28c411b6192a}
       \strng{authorfullhashraw}{4417b591b350312e289d28c411b6192a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Disparate access to resources by different subpopulations is a prevalent issue in societal and sociotechnical networks. For example, urban infrastructure networks may enable certain racial groups to more easily access resources such as high-quality schools, grocery stores, and polling places. Similarly, social networks within universities and organizations may enable certain groups to more easily access people with valuable information or influence. Here we introduce a new class of problems, Graph Augmentation for Equitable Access (GAEA), to enhance equity in networked systems by editing graph edges under budget constraints. We prove such problems are NP-hard, and cannot be approximated within a factor of (1-1/3e). We develop a principled, sample- and time- efficient Markov Reward Process (MRP)-based mechanism design framework for GAEA. Our algorithm outperforms baselines on a diverse set of synthetic graphs. We further demonstrate the method on real-world networks, by merging public census, school, and transportation datasets for the city of Chicago and applying our algorithm to find human-interpretable edits to the bus network that enhance equitable access to high-quality schools across racial groups. Further experiments on Facebook networks of universities yield sets of new social connections that would increase equitable access to certain attributed nodes across gender groups.}
