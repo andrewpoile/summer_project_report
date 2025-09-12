@@ -545,424 +545,84 @@
       \verb https://pubs.aeaweb.org/doi/10.1257/000282803322157061
       \endverb
     \endentry
-    \entry{pathakSchoolAdmissionsReform2013}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=e75d96917751be05beac30ccd106dc84}{%
-           family={Pathak},
+    \entry{participationEducationReformAct}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=862131a2e0def2acd24a52de4e197a75}{%
+           family={Participation},
            familyi={P\bibinitperiod},
-           given={Parag\bibnamedelima A},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=8073f6091c1c9c41b6684fbd2d0112aa}{%
-           family={Sönmez},
-           familyi={S\bibinitperiod},
-           given={Tayfun},
-           giveni={T\bibinitperiod}}}%
+           given={Expert},
+           giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{fullhash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{fullhashraw}{71ba6ffb3525341d860bc888754d928c}
-      \strng{bibnamehash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{authorbibnamehash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{authornamehash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{authorfullhash}{71ba6ffb3525341d860bc888754d928c}
-      \strng{authorfullhashraw}{71ba6ffb3525341d860bc888754d928c}
+      \list{publisher}{1}{%
+        {Statute Law Database}%
+      }
+      \strng{namehash}{862131a2e0def2acd24a52de4e197a75}
+      \strng{fullhash}{862131a2e0def2acd24a52de4e197a75}
+      \strng{fullhashraw}{862131a2e0def2acd24a52de4e197a75}
+      \strng{bibnamehash}{862131a2e0def2acd24a52de4e197a75}
+      \strng{authorbibnamehash}{862131a2e0def2acd24a52de4e197a75}
+      \strng{authornamehash}{862131a2e0def2acd24a52de4e197a75}
+      \strng{authorfullhash}{862131a2e0def2acd24a52de4e197a75}
+      \strng{authorfullhashraw}{862131a2e0def2acd24a52de4e197a75}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{American Economic Review}
-      \field{month}{2}
-      \field{number}{1}
-      \field{title}{School {{Admissions Reform}} in {{Chicago}} and {{England}}: {{Comparing Mechanisms}} by Their {{Vulnerability}} to {{Manipulation}}}
-      \field{volume}{103}
-      \field{year}{2013}
-      \field{dateera}{ce}
-      \field{pages}{80\bibrangedash 106}
-      \range{pages}{27}
-      \verb{doi}
-      \verb 10.1257/aer.103.1.80
-      \endverb
-      \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\MEIMEDAL\Pathak and Sönmez - 2013 - School Admissions Reform in Chicago and England Comparing Mechanisms by their Vulnerability to Mani.pdf
-      \endverb
-    \endentry
-    \entry{terrierImmediateAcceptanceDeferred}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=1e6047b57c25357a27e5bf5910d32ac7}{%
-           family={Terrier},
-           familyi={T\bibinitperiod},
-           given={Camille},
-           giveni={C\bibinitperiod}}}%
-        {{hash=e75d96917751be05beac30ccd106dc84}{%
-           family={Pathak},
-           familyi={P\bibinitperiod},
-           given={Parag\bibnamedelima A},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=66e81506834dcfca2d2ac5d1310ffa17}{%
-           family={Ren},
-           familyi={R\bibinitperiod},
-           given={Kevin},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{fullhash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{fullhashraw}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{bibnamehash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{authorbibnamehash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{authornamehash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{authorfullhash}{89cd246b4f157767da5980fe9124b9d5}
-      \strng{authorfullhashraw}{89cd246b4f157767da5980fe9124b9d5}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Countries and cities around the world increasingly rely on centralized systems to assign students to schools. Two algorithms, deferred acceptance (DA) and immediate acceptance (IA), are widespread. The latter is often criticized for harming disadvantaged families who fail to get access to popular schools. This paper investigates the effect of the national ban of the IA mechanism in England in 2008. Before the ban, 49 English local authorities used DA and 16 used IA. All IA local authorities switched to DA afterwards, giving rise to a cross-market differencein-differences research design. Our results show that the elimination of IA reduces measures of school quality for low-SES students more than high-SES students. After the ban, low-SES students attend schools with lower value-added and more disadvantaged and low-achieving peers. This effect is primarily driven by a decrease in low-SES admissions at selective schools. Our findings point to an unintended consequence of the IA to DA transition: by encouraging highSES parents to report their preferences truthfully, DA increases competition for top schools, which crowds out low-SES students.}
+      \field{abstract}{An Act to amend the law relating to education.}
       \field{langid}{english}
-      \field{title}{From {{Immediate Acceptance}} to {{Deferred Acceptance}}: {{Effects}} on {{School Admissions}} and {{Achievement}} in {{England}}}
-      \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\37MFT3NZ\Terrier et al. - From Immediate Acceptance to Deferred Acceptance Effects on School Admissions and Achievement in En.pdf
+      \field{title}{Education {{Reform Act}} 1988}
+      \field{type}{Text}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.legislation.gov.uk/ukpga/1988/40/contents
+      \endverb
+      \verb{url}
+      \verb https://www.legislation.gov.uk/ukpga/1988/40/contents
       \endverb
     \endentry
-    \entry{haeringerConstrainedSchoolChoice2009}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=88e3e6d3f491508b90fd7376d31342a6}{%
-           family={Haeringer},
-           familyi={H\bibinitperiod},
-           given={Guillaume},
-           giveni={G\bibinitperiod}}}%
-        {{hash=d5a0a9c7026073d1edc27e0e76508d0e}{%
-           family={Klijn},
-           familyi={K\bibinitperiod},
-           given={Flip},
-           giveni={F\bibinitperiod}}}%
+    \entry{westSchoolChoiceDiversity2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=5db15fe67aafa8d25791721118b4478f}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{38fde8447e95198760ccfefa2f757328}
-      \strng{fullhash}{38fde8447e95198760ccfefa2f757328}
-      \strng{fullhashraw}{38fde8447e95198760ccfefa2f757328}
-      \strng{bibnamehash}{38fde8447e95198760ccfefa2f757328}
-      \strng{authorbibnamehash}{38fde8447e95198760ccfefa2f757328}
-      \strng{authornamehash}{38fde8447e95198760ccfefa2f757328}
-      \strng{authorfullhash}{38fde8447e95198760ccfefa2f757328}
-      \strng{authorfullhashraw}{38fde8447e95198760ccfefa2f757328}
+      \strng{namehash}{5db15fe67aafa8d25791721118b4478f}
+      \strng{fullhash}{5db15fe67aafa8d25791721118b4478f}
+      \strng{fullhashraw}{5db15fe67aafa8d25791721118b4478f}
+      \strng{bibnamehash}{5db15fe67aafa8d25791721118b4478f}
+      \strng{authorbibnamehash}{5db15fe67aafa8d25791721118b4478f}
+      \strng{authornamehash}{5db15fe67aafa8d25791721118b4478f}
+      \strng{authorfullhash}{5db15fe67aafa8d25791721118b4478f}
+      \strng{authorfullhashraw}{5db15fe67aafa8d25791721118b4478f}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Recently, several school districts in the US have adopted or consider adopting the Student-Optimal Stable mechanism or the Top Trading Cycles mechanism to assign children to public schools. There is evidence that for school districts that employ (variants of) the so-called Boston mechanism the transition would lead to efficiency gains. The first two mechanisms are strategy-proof, but in practice student assignment procedures typically impede a student to submit a preference list that contains all his acceptable schools. We study the preference revelation game where students can only declare up to a fixed number of schools to be acceptable. We focus on the stability and efficiency of the Nash equilibrium outcomes. Our main results identify rather stringent necessary and sufficient conditions on the priorities to guarantee stability or efficiency of either of the two mechanisms. This stands in sharp contrast with the Boston mechanism which has been abandoned in many US school districts but nevertheless yields stable Nash equilibrium outcomes. © 2009 Elsevier Inc. All rights reserved.}
-      \field{issn}{00220531}
-      \field{journaltitle}{Journal of Economic Theory}
-      \field{langid}{english}
-      \field{month}{9}
-      \field{number}{5}
-      \field{shortjournal}{Journal of Economic Theory}
-      \field{title}{Constrained School Choice}
-      \field{urlday}{1}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
-      \field{volume}{144}
-      \field{year}{2009}
+      \field{journaltitle}{Journal of School Choice}
+      \field{month}{1}
+      \field{title}{School {{Choice}} ({{And Diversity}}) in the {{UK}} since 1944: {{Continuity}}, {{Change}}, {{Divergence}} and {{School Selectivity}}}
+      \field{volume}{17}
+      \field{year}{2023}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{1921\bibrangedash 1947}
-      \range{pages}{27}
+      \field{pages}{15\bibrangedash 34}
+      \range{pages}{20}
       \verb{doi}
-      \verb 10.1016/j.jet.2009.05.002
-      \endverb
-      \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\5RCWZDYK\Haeringer and Klijn - 2009 - Constrained school choice.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S002205310900057X
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S002205310900057X
+      \verb 10.1080/15582159.2023.2169814
       \endverb
     \endentry
-    \entry{erdilWhatsMatterTieBreaking2008}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=27a946ac0f64e6b6a7e1a095f58caa44}{%
-           family={Erdil},
-           familyi={E\bibinitperiod},
-           given={Aytek},
-           giveni={A\bibinitperiod}}}%
-        {{hash=e5a655ed7eadf4b37daf6b493e7e6666}{%
-           family={Ergin},
-           familyi={E\bibinitperiod},
-           given={Haluk},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{fullhash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{fullhashraw}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{bibnamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{authorbibnamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{authornamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{authorfullhash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{authorfullhashraw}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{In several school choice districts in the United States, the student proposing deferred acceptance algorithm is applied after indifferences in priority orders are broken in some exogenous way. Although such a tie-breaking procedure preserves stability, it adversely affects the welfare of the students since it introduces artificial stability constraints. Our main finding is a polynomial-time algorithm for the computation of a student-optimal stable matching when priorities are weak. The idea behind our construction relies on a new notion which we call a stable improvement cycle. We also investigate the strategic properties of the student-optimal stable mechanism. (JEL C78, D82, I21)}
-      \field{day}{1}
-      \field{issn}{0002-8282}
-      \field{journaltitle}{American Economic Review}
-      \field{langid}{english}
-      \field{month}{5}
-      \field{number}{3}
-      \field{shortjournal}{American Economic Review}
-      \field{shorttitle}{What's the {{Matter}} with {{Tie-Breaking}}?}
-      \field{title}{What's the {{Matter}} with {{Tie-Breaking}}? {{Improving Efficiency}} in {{School Choice}}}
-      \field{urlday}{6}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
-      \field{volume}{98}
-      \field{year}{2008}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{669\bibrangedash 689}
-      \range{pages}{21}
-      \verb{doi}
-      \verb 10.1257/aer.98.3.669
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\aejp1u19\\Zotero\\storage\\JXPAQUYQ\\Erdil and Ergin - 2008 - What's the Matter with Tie-Breaking Improving Efficiency in School Choice.pdf;C\:\\Users\\aejp1u19\\Zotero\\storage\\QPDIUIYY\\Erdil and Ergin - 2008 - What's the Matter with Tie-Breaking Improving Efficiency in School Choice.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://pubs.aeaweb.org/doi/10.1257/aer.98.3.669
-      \endverb
-      \verb{url}
-      \verb https://pubs.aeaweb.org/doi/10.1257/aer.98.3.669
-      \endverb
-      \keyw{Analysis of Education,and Welfare,Education,Education: Government Policy,State and Local Government: Health,State and Local Government: Health Education and Welfare}
-    \endentry
-    \entry{erdilTwosidedMatchingIndifferences2017}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=27a946ac0f64e6b6a7e1a095f58caa44}{%
-           family={Erdil},
-           familyi={E\bibinitperiod},
-           given={Aytek},
-           giveni={A\bibinitperiod}}}%
-        {{hash=e5a655ed7eadf4b37daf6b493e7e6666}{%
-           family={Ergin},
-           familyi={E\bibinitperiod},
-           given={Haluk},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{fullhash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{fullhashraw}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{bibnamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{authorbibnamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{authornamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{authorfullhash}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \strng{authorfullhashraw}{1247f35bfaf2ca84b6f788f0147f60b6}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
+    \entry{SchoolAdmissionsCode}{article}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
-      \field{abstract}{Most of the two-sided matching literature maintains the assumption that agents are never indifferent between any two members of the opposite side. In practice, however, ties in preferences arise naturally and are widespread. Market design needs to handle ties carefully, because in the presence of indifferences, stability no longer implies Pareto efficiency, and the deferred acceptance algorithm cannot be applied to produce a Pareto efficient or a worker-optimal stable matching. We allow ties in preference rankings and show that the Pareto dominance relation on stable matchings can be captured by two simple operations which involve rematching of workers and firms via cycles or chains. Likewise, the Pareto relation defined via workers' welfare can also be broken down to two similar procedures which preserve stability. Using these structural results we design fast algorithms to compute a Pareto efficient and stable matching, and a worker-optimal stable matching.}
-      \field{day}{1}
-      \field{issn}{0022-0531}
-      \field{journaltitle}{Journal of Economic Theory}
-      \field{month}{9}
-      \field{shortjournal}{Journal of Economic Theory}
-      \field{title}{Two-Sided Matching with Indifferences}
-      \field{urlday}{7}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
-      \field{volume}{171}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{268\bibrangedash 292}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1016/j.jet.2017.07.002
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\aejp1u19\\Zotero\\storage\\WAKYTV9W\\Erdil and Ergin - 2017 - Two-sided matching with indifferences.pdf;C\:\\Users\\aejp1u19\\Zotero\\storage\\5BQ9USMN\\S0022053117300789.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0022053117300789
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0022053117300789
-      \endverb
-      \keyw{Efficient and stable matching,Matching with indifferences,Matching with ties,Two-sided matching}
-    \endentry
-    \entry{rothEconomicsMatchingStability1982}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=320ab47af0997a7a69af46760b320783}{%
-           family={Roth},
-           familyi={R\bibinitperiod},
-           given={Alvin\bibnamedelima E.},
-           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {INFORMS}%
-      }
-      \strng{namehash}{320ab47af0997a7a69af46760b320783}
-      \strng{fullhash}{320ab47af0997a7a69af46760b320783}
-      \strng{fullhashraw}{320ab47af0997a7a69af46760b320783}
-      \strng{bibnamehash}{320ab47af0997a7a69af46760b320783}
-      \strng{authorbibnamehash}{320ab47af0997a7a69af46760b320783}
-      \strng{authornamehash}{320ab47af0997a7a69af46760b320783}
-      \strng{authorfullhash}{320ab47af0997a7a69af46760b320783}
-      \strng{authorfullhashraw}{320ab47af0997a7a69af46760b320783}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This paper considers some game-theoretic aspects of matching problems and procedures, of the sort which involve matching the members of one group of agents with one or more members of a second, disjoint group of agents, ail of whom have preferences over the possible resulting matches. The main focus of this paper is on determining the extent to which matching procedures can be designed which give agents the incentive to honestly reveal their preferences, and which produce stable matches. Two principal results are demonstrated. The first is that no matching procedure exists which always yields a stable outcome and gives players the incentive to reveal their true preferences, even though procedures exist which accomplish either of these goals separately. The second result is that matching procedures do exist, however, which always yield a stable outcome and which always give all the agents in one of the two disjoint sets of agents the incentive to reveal their true preferences.}
-      \field{issn}{0364-765X}
-      \field{journaltitle}{Mathematics of Operations Research}
-      \field{month}{11}
-      \field{number}{4}
-      \field{shortjournal}{Mathematics of OR}
-      \field{shorttitle}{The {{Economics}} of {{Matching}}}
-      \field{title}{The {{Economics}} of {{Matching}}: {{Stability}} and {{Incentives}}}
-      \field{urlday}{7}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
-      \field{volume}{7}
-      \field{year}{1982}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{617\bibrangedash 628}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1287/moor.7.4.617
-      \endverb
-      \verb{urlraw}
-      \verb https://pubsonline.informs.org/doi/10.1287/moor.7.4.617
-      \endverb
-      \verb{url}
-      \verb https://pubsonline.informs.org/doi/10.1287/moor.7.4.617
-      \endverb
-      \keyw{assignment,matching,preference revelation}
-    \endentry
-    \entry{huangBundledSchoolChoice2025}{online}{}{}
-      \name{author}{2}{}{%
-        {{hash=fc597773a79727d7bdb0767a79c280f0}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Lingbo},
-           giveni={L\bibinitperiod}}}%
-        {{hash=c085572f860d99d03a37c331ee13ff68}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jun},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
-      \strng{fullhash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
-      \strng{fullhashraw}{f7d5b65b4149bbe5e07d4dcb383f6de3}
-      \strng{bibnamehash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
-      \strng{authorbibnamehash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
-      \strng{authornamehash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
-      \strng{authorfullhash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
-      \strng{authorfullhashraw}{f7d5b65b4149bbe5e07d4dcb383f6de3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper proposes a novel school choice system where schools are grouped into hierarchical bundles and offered to students as options for preference reports. By listing a bundle, a student seeks admission to any school within it without ranking these schools. This approach helps students who struggle to rank schools precisely and expands options on limited preference lists, potentially improving match outcomes. We design a modified deferred acceptance mechanism to handle bundle reports while preserving stability. Laboratory experiments support our theory, showing that well-constructed bundles aligned with student preferences enhance welfare and match rates without compromising fairness. Practical applications are discussed.}
-      \field{day}{7}
-      \field{eprintclass}{econ}
-      \field{eprinttype}{arXiv}
-      \field{month}{4}
-      \field{pubstate}{prepublished}
-      \field{title}{Bundled {{School Choice}}}
-      \field{urlday}{7}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/arXiv.2501.04241
-      \endverb
-      \verb{eprint}
-      \verb 2501.04241
-      \endverb
-      \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\XHYNUNV4\Huang and Zhang - 2025 - Bundled School Choice.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2501.04241
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2501.04241
-      \endverb
-      \keyw{Economics - Theoretical Economics}
-    \endentry
-    \entry{anderssonSequentialSchoolChoice2024}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=84d0a096531859706501195a071f97f8}{%
-           family={Andersson},
-           familyi={A\bibinitperiod},
-           given={Tommy},
-           giveni={T\bibinitperiod}}}%
-        {{hash=be0189863d35f8f9d875538523c6808f}{%
-           family={Dur},
-           familyi={D\bibinitperiod},
-           given={Umut},
-           giveni={U\bibinitperiod}}}%
-        {{hash=889993e7438662b39fb78ee6179978c1}{%
-           family={Ertemel},
-           familyi={E\bibinitperiod},
-           given={Sinan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b175872bc940b3f8a6e80a36c4e03a1a}{%
-           family={Kesten},
-           familyi={K\bibinitperiod},
-           given={Onur},
-           giveni={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{2806be03fbde3b1e4bd3c828d2eeb993}
-      \strng{fullhash}{e45f4abdcdb57b5cef6519262d961013}
-      \strng{fullhashraw}{e45f4abdcdb57b5cef6519262d961013}
-      \strng{bibnamehash}{2806be03fbde3b1e4bd3c828d2eeb993}
-      \strng{authorbibnamehash}{2806be03fbde3b1e4bd3c828d2eeb993}
-      \strng{authornamehash}{2806be03fbde3b1e4bd3c828d2eeb993}
-      \strng{authorfullhash}{e45f4abdcdb57b5cef6519262d961013}
-      \strng{authorfullhashraw}{e45f4abdcdb57b5cef6519262d961013}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We investigate sequential two-stage admission systems with public and private schools. A sequential notion of truthfulness, called straightforwardness, is introduced. Contrary to one-stage systems, sequentiality leads to a trade-off between the existence of a straightforward equilibrium and non-wastefulness. We identify the unique set of rules for two-stage systems that guarantees the existence of a straightforward equilibrium and reduces waste. Existing admission systems in Türkiye and Sweden are analyzed within our general framework.}
-      \field{day}{1}
-      \field{issn}{1432-217X}
-      \field{journaltitle}{Social Choice and Welfare}
       \field{langid}{english}
-      \field{month}{9}
-      \field{number}{2}
-      \field{shortjournal}{Soc Choice Welf}
-      \field{title}{Sequential School Choice with Public and Private Schools}
-      \field{urlday}{8}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
-      \field{volume}{63}
-      \field{year}{2024}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{231\bibrangedash 276}
-      \range{pages}{46}
-      \verb{doi}
-      \verb 10.1007/s00355-024-01527-0
-      \endverb
+      \field{title}{School Admissions Code 2021}
       \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\F6GB4YIB\Andersson et al. - 2024 - Sequential school choice with public and private schools.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s00355-024-01527-0
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s00355-024-01527-0
+      \verb C:\Users\aejp1u19\Zotero\storage\LFDAEIRV\School admissions code 2021.pdf
       \endverb
     \endentry
     \entry{averyDistributionalConsequencesPublic2021}{article}{}{}
@@ -1089,8 +749,8 @@
       \strng{authornamehash}{911d79638bfb4c19a80effa807bbbf2a}
       \strng{authorfullhash}{911d79638bfb4c19a80effa807bbbf2a}
       \strng{authorfullhashraw}{911d79638bfb4c19a80effa807bbbf2a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Research concerning family preferences for schooling indicates that they value proximity to home as much as academic quality when choosing schools. However, preferences for proximity likely represent inability to access schools farther away from home, especially for disadvantaged students. I test whether distance and district boundaries constrain access to high-performing and effective schools for Detroit students where families choose between intradistrict, interdistrict, and charter schools, as well as an assigned school. I employ a unique data set that includes enrollment records, addresses, and commute times for Detroit residents regardless of where they attend school. Results show that disadvantaged students have little access to the highest quality schools available, specifically those outside Detroit. However, students attend higher performing schools within Detroit.}
@@ -1150,8 +810,8 @@
       \strng{authornamehash}{58818c6c24f4485e0f0d8f68c951fac4}
       \strng{authorfullhash}{58818c6c24f4485e0f0d8f68c951fac4}
       \strng{authorfullhashraw}{58818c6c24f4485e0f0d8f68c951fac4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{While school choice has been well studied, there is little existing research exploring the role of transportation, in general, and school buses, in particular, to school choice decisions. We examine the effect of school buses on school choice decisions using data on kindergarten students and their eligibility for transportation assistance in New York City public schools in 2017. Using both conditional logit school choice models and regression discontinuity designs, we provide both descriptive and credibly causal evidence on the impact of school proximity, bus eligibility, and their interaction on school choice decisions. Our results indicate that proximity and buses both matter. Specifically, while distance significantly deters choice, school bus eligibility increases the likelihood of choosing a school by 1.4–4 percentage points (or 12-30 percent). Compared to a high-quality school, we find that bus eligibility has twice as large an impact on reducing the negative distance effect in the 0.5 to 1 mile range from school (27 versus 12 percent). These results will be useful for policy makers looking to leverage school transportation policy to improve school choice decisions, and ultimately student outcomes.}
@@ -1216,8 +876,8 @@
       \strng{authorfullhash}{abb9d7cd769f10651ccf4910236f3878}
       \strng{authorfullhashraw}{abb9d7cd769f10651ccf4910236f3878}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{We investigate parents’ preferences for school attributes in a unique data set of survey, administrative, census and spatial data. Using a conditional logit, incorporating characteristics of households, schools and home–school distance, we show that most families have strong preferences for schools’ academic performance. Parents also value schools’ socio‐economic composition and distance, which may limit the potential of school choice to improve academic standards. Most of the variation in preferences for school quality across socio‐economic groups arises from differences in the quality of accessible schools rather than differences in parents’ preferences, although more advantaged parents have stronger preferences for academic performance.}
@@ -1251,6 +911,47 @@
       \verb https://doi.org/10.1111/ecoj.12153
       \endverb
     \endentry
+    \entry{pathakSchoolAdmissionsReform2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e75d96917751be05beac30ccd106dc84}{%
+           family={Pathak},
+           familyi={P\bibinitperiod},
+           given={Parag\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8073f6091c1c9c41b6684fbd2d0112aa}{%
+           family={Sönmez},
+           familyi={S\bibinitperiod},
+           given={Tayfun},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{fullhash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{fullhashraw}{71ba6ffb3525341d860bc888754d928c}
+      \strng{bibnamehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authorbibnamehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authornamehash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authorfullhash}{71ba6ffb3525341d860bc888754d928c}
+      \strng{authorfullhashraw}{71ba6ffb3525341d860bc888754d928c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{School {{Admissions Reform}} in {{Chicago}} and {{England}}: {{Comparing Mechanisms}} by Their {{Vulnerability}} to {{Manipulation}}}
+      \field{volume}{103}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{80\bibrangedash 106}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1257/aer.103.1.80
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\MEIMEDAL\Pathak and Sönmez - 2013 - School Admissions Reform in Chicago and England Comparing Mechanisms by their Vulnerability to Mani.pdf
+      \endverb
+    \endentry
     \entry{xuSegregationSpatialExternalities2024}{article}{}{}
       \name{author}{1}{}{%
         {{hash=57705238455e800d4dbfbd8f2a03228d}{%
@@ -1267,8 +968,8 @@
       \strng{authornamehash}{57705238455e800d4dbfbd8f2a03228d}
       \strng{authorfullhash}{57705238455e800d4dbfbd8f2a03228d}
       \strng{authorfullhashraw}{57705238455e800d4dbfbd8f2a03228d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Conventional wisdom claims that racial diversity undermines public goods provision. I show that class-based differences, instead, incentivize cooperation for public goods. Class-based segregation reduces spatial externalities of inequality (e.g., sewage pollution and crime) spilling over from impoverished areas (e.g., slums) to the middle class. Conversely, I argue that in integrated (de-segregated) cities, the scale of such externalities undermines the efficacy of private services (e.g., private security), thereby inducing middle-class preferences for externalities-correcting public goods. Thus, while segregation polarizes preferences, integration aligns the middle class with the poor in coalitions that support public goods over private alternatives. I illustrate the theory using focus groups, a proposed quasi-experimental strategy, and an original face-to-face survey of 4,208 households across 420 neighborhoods in São Paulo, Brazil. The analysis introduces self-interest in reducing intergroup externalities as a mechanism for cooperation for public goods even in diverse societies. Using mechanism vignettes, I distinguish the mechanism from the affective attitudes—racial tolerance, social affinity—of intergroup contact.}
@@ -1327,8 +1028,8 @@
       \strng{authornamehash}{d50006df220fc29ad1a86c08f467032c}
       \strng{authorfullhash}{d50006df220fc29ad1a86c08f467032c}
       \strng{authorfullhashraw}{d50006df220fc29ad1a86c08f467032c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The Moving to Opportunity (MTO) experiment offered randomly selected families housing vouchers to move from high-poverty housing projects to lower-poverty neighborhoods. We analyze MTO's impacts on children's long-term outcomes using tax data. We find that moving to a lower-poverty neighborhood when young (before age 13) increases college attendance and earnings and reduces single parenthood rates. Moving as an adolescent has slightly negative impacts, perhaps because of disruption effects. The decline in the gains from moving with the age when children move suggests that the duration of exposure to better environments during childhood is an important determinant of children's long-term outcomes. (JEL I31, I38, J13, R23, R38)}
@@ -1478,6 +1179,385 @@
       \endverb
       \keyw{Child Care,Children,Economic Anthropology,Economic Sociology; Economic Anthropology; Language; Social and Economic Stratification,Education and Inequality,Education and Inequality Education: Government Policy Fertility,Education: Government Policy,Family Planning,Fertility; Family Planning; Child Care; Children; Youth,Illegal Behavior and the Enforcement of Law,Language,Neighborhood Characteristics Economic Sociology,Population,Regional Economic Activity: Growth Development Environmental Issues and Changes,Regional Labor Markets,Social and Economic Stratification,Urban Rural Regional Real Estate and Transportation Economics: Regional Migration; Regional Labor Markets; Population; Neighborhood Characteristics,Youth Illegal Behavior and the Enforcement of Law Regional Economic Activity: Growth Development Environmental Issues and Changes Urban Rural Regional Real Estate and Transportation Economics: Regional Migration}
     \endentry
+    \entry{terrierImmediateAcceptanceDeferred}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1e6047b57c25357a27e5bf5910d32ac7}{%
+           family={Terrier},
+           familyi={T\bibinitperiod},
+           given={Camille},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e75d96917751be05beac30ccd106dc84}{%
+           family={Pathak},
+           familyi={P\bibinitperiod},
+           given={Parag\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=66e81506834dcfca2d2ac5d1310ffa17}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{fullhash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{fullhashraw}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{bibnamehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authorbibnamehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authornamehash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authorfullhash}{89cd246b4f157767da5980fe9124b9d5}
+      \strng{authorfullhashraw}{89cd246b4f157767da5980fe9124b9d5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Countries and cities around the world increasingly rely on centralized systems to assign students to schools. Two algorithms, deferred acceptance (DA) and immediate acceptance (IA), are widespread. The latter is often criticized for harming disadvantaged families who fail to get access to popular schools. This paper investigates the effect of the national ban of the IA mechanism in England in 2008. Before the ban, 49 English local authorities used DA and 16 used IA. All IA local authorities switched to DA afterwards, giving rise to a cross-market differencein-differences research design. Our results show that the elimination of IA reduces measures of school quality for low-SES students more than high-SES students. After the ban, low-SES students attend schools with lower value-added and more disadvantaged and low-achieving peers. This effect is primarily driven by a decrease in low-SES admissions at selective schools. Our findings point to an unintended consequence of the IA to DA transition: by encouraging highSES parents to report their preferences truthfully, DA increases competition for top schools, which crowds out low-SES students.}
+      \field{langid}{english}
+      \field{title}{From {{Immediate Acceptance}} to {{Deferred Acceptance}}: {{Effects}} on {{School Admissions}} and {{Achievement}} in {{England}}}
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\37MFT3NZ\Terrier et al. - From Immediate Acceptance to Deferred Acceptance Effects on School Admissions and Achievement in En.pdf
+      \endverb
+    \endentry
+    \entry{haeringerConstrainedSchoolChoice2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=88e3e6d3f491508b90fd7376d31342a6}{%
+           family={Haeringer},
+           familyi={H\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d5a0a9c7026073d1edc27e0e76508d0e}{%
+           family={Klijn},
+           familyi={K\bibinitperiod},
+           given={Flip},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{fullhash}{38fde8447e95198760ccfefa2f757328}
+      \strng{fullhashraw}{38fde8447e95198760ccfefa2f757328}
+      \strng{bibnamehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authorbibnamehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authornamehash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authorfullhash}{38fde8447e95198760ccfefa2f757328}
+      \strng{authorfullhashraw}{38fde8447e95198760ccfefa2f757328}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recently, several school districts in the US have adopted or consider adopting the Student-Optimal Stable mechanism or the Top Trading Cycles mechanism to assign children to public schools. There is evidence that for school districts that employ (variants of) the so-called Boston mechanism the transition would lead to efficiency gains. The first two mechanisms are strategy-proof, but in practice student assignment procedures typically impede a student to submit a preference list that contains all his acceptable schools. We study the preference revelation game where students can only declare up to a fixed number of schools to be acceptable. We focus on the stability and efficiency of the Nash equilibrium outcomes. Our main results identify rather stringent necessary and sufficient conditions on the priorities to guarantee stability or efficiency of either of the two mechanisms. This stands in sharp contrast with the Boston mechanism which has been abandoned in many US school districts but nevertheless yields stable Nash equilibrium outcomes. © 2009 Elsevier Inc. All rights reserved.}
+      \field{issn}{00220531}
+      \field{journaltitle}{Journal of Economic Theory}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{5}
+      \field{shortjournal}{Journal of Economic Theory}
+      \field{title}{Constrained School Choice}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{144}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1921\bibrangedash 1947}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/j.jet.2009.05.002
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\5RCWZDYK\Haeringer and Klijn - 2009 - Constrained school choice.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S002205310900057X
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S002205310900057X
+      \endverb
+    \endentry
+    \entry{erdilWhatsMatterTieBreaking2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=27a946ac0f64e6b6a7e1a095f58caa44}{%
+           family={Erdil},
+           familyi={E\bibinitperiod},
+           given={Aytek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e5a655ed7eadf4b37daf6b493e7e6666}{%
+           family={Ergin},
+           familyi={E\bibinitperiod},
+           given={Haluk},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{fullhash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{fullhashraw}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{bibnamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{authorbibnamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{authornamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{authorfullhash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{authorfullhashraw}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In several school choice districts in the United States, the student proposing deferred acceptance algorithm is applied after indifferences in priority orders are broken in some exogenous way. Although such a tie-breaking procedure preserves stability, it adversely affects the welfare of the students since it introduces artificial stability constraints. Our main finding is a polynomial-time algorithm for the computation of a student-optimal stable matching when priorities are weak. The idea behind our construction relies on a new notion which we call a stable improvement cycle. We also investigate the strategic properties of the student-optimal stable mechanism. (JEL C78, D82, I21)}
+      \field{day}{1}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{American Economic Review}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{3}
+      \field{shortjournal}{American Economic Review}
+      \field{shorttitle}{What's the {{Matter}} with {{Tie-Breaking}}?}
+      \field{title}{What's the {{Matter}} with {{Tie-Breaking}}? {{Improving Efficiency}} in {{School Choice}}}
+      \field{urlday}{6}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{98}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{669\bibrangedash 689}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1257/aer.98.3.669
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\aejp1u19\\Zotero\\storage\\JXPAQUYQ\\Erdil and Ergin - 2008 - What's the Matter with Tie-Breaking Improving Efficiency in School Choice.pdf;C\:\\Users\\aejp1u19\\Zotero\\storage\\QPDIUIYY\\Erdil and Ergin - 2008 - What's the Matter with Tie-Breaking Improving Efficiency in School Choice.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.aeaweb.org/doi/10.1257/aer.98.3.669
+      \endverb
+      \verb{url}
+      \verb https://pubs.aeaweb.org/doi/10.1257/aer.98.3.669
+      \endverb
+      \keyw{Analysis of Education,and Welfare,Education,Education: Government Policy,State and Local Government: Health,State and Local Government: Health Education and Welfare}
+    \endentry
+    \entry{erdilTwosidedMatchingIndifferences2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=27a946ac0f64e6b6a7e1a095f58caa44}{%
+           family={Erdil},
+           familyi={E\bibinitperiod},
+           given={Aytek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e5a655ed7eadf4b37daf6b493e7e6666}{%
+           family={Ergin},
+           familyi={E\bibinitperiod},
+           given={Haluk},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{fullhash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{fullhashraw}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{bibnamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{authorbibnamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{authornamehash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{authorfullhash}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \strng{authorfullhashraw}{1247f35bfaf2ca84b6f788f0147f60b6}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Most of the two-sided matching literature maintains the assumption that agents are never indifferent between any two members of the opposite side. In practice, however, ties in preferences arise naturally and are widespread. Market design needs to handle ties carefully, because in the presence of indifferences, stability no longer implies Pareto efficiency, and the deferred acceptance algorithm cannot be applied to produce a Pareto efficient or a worker-optimal stable matching. We allow ties in preference rankings and show that the Pareto dominance relation on stable matchings can be captured by two simple operations which involve rematching of workers and firms via cycles or chains. Likewise, the Pareto relation defined via workers' welfare can also be broken down to two similar procedures which preserve stability. Using these structural results we design fast algorithms to compute a Pareto efficient and stable matching, and a worker-optimal stable matching.}
+      \field{day}{1}
+      \field{issn}{0022-0531}
+      \field{journaltitle}{Journal of Economic Theory}
+      \field{month}{9}
+      \field{shortjournal}{Journal of Economic Theory}
+      \field{title}{Two-Sided Matching with Indifferences}
+      \field{urlday}{7}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{171}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{268\bibrangedash 292}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1016/j.jet.2017.07.002
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\aejp1u19\\Zotero\\storage\\WAKYTV9W\\Erdil and Ergin - 2017 - Two-sided matching with indifferences.pdf;C\:\\Users\\aejp1u19\\Zotero\\storage\\5BQ9USMN\\S0022053117300789.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022053117300789
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022053117300789
+      \endverb
+      \keyw{Efficient and stable matching,Matching with indifferences,Matching with ties,Two-sided matching}
+    \endentry
+    \entry{rothEconomicsMatchingStability1982}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=320ab47af0997a7a69af46760b320783}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Alvin\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{320ab47af0997a7a69af46760b320783}
+      \strng{fullhash}{320ab47af0997a7a69af46760b320783}
+      \strng{fullhashraw}{320ab47af0997a7a69af46760b320783}
+      \strng{bibnamehash}{320ab47af0997a7a69af46760b320783}
+      \strng{authorbibnamehash}{320ab47af0997a7a69af46760b320783}
+      \strng{authornamehash}{320ab47af0997a7a69af46760b320783}
+      \strng{authorfullhash}{320ab47af0997a7a69af46760b320783}
+      \strng{authorfullhashraw}{320ab47af0997a7a69af46760b320783}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper considers some game-theoretic aspects of matching problems and procedures, of the sort which involve matching the members of one group of agents with one or more members of a second, disjoint group of agents, ail of whom have preferences over the possible resulting matches. The main focus of this paper is on determining the extent to which matching procedures can be designed which give agents the incentive to honestly reveal their preferences, and which produce stable matches. Two principal results are demonstrated. The first is that no matching procedure exists which always yields a stable outcome and gives players the incentive to reveal their true preferences, even though procedures exist which accomplish either of these goals separately. The second result is that matching procedures do exist, however, which always yield a stable outcome and which always give all the agents in one of the two disjoint sets of agents the incentive to reveal their true preferences.}
+      \field{issn}{0364-765X}
+      \field{journaltitle}{Mathematics of Operations Research}
+      \field{month}{11}
+      \field{number}{4}
+      \field{shortjournal}{Mathematics of OR}
+      \field{shorttitle}{The {{Economics}} of {{Matching}}}
+      \field{title}{The {{Economics}} of {{Matching}}: {{Stability}} and {{Incentives}}}
+      \field{urlday}{7}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{7}
+      \field{year}{1982}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{617\bibrangedash 628}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1287/moor.7.4.617
+      \endverb
+      \verb{urlraw}
+      \verb https://pubsonline.informs.org/doi/10.1287/moor.7.4.617
+      \endverb
+      \verb{url}
+      \verb https://pubsonline.informs.org/doi/10.1287/moor.7.4.617
+      \endverb
+      \keyw{assignment,matching,preference revelation}
+    \endentry
+    \entry{huangBundledSchoolChoice2025}{online}{}{}
+      \name{author}{2}{}{%
+        {{hash=fc597773a79727d7bdb0767a79c280f0}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Lingbo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c085572f860d99d03a37c331ee13ff68}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
+      \strng{fullhash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
+      \strng{fullhashraw}{f7d5b65b4149bbe5e07d4dcb383f6de3}
+      \strng{bibnamehash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
+      \strng{authorbibnamehash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
+      \strng{authornamehash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
+      \strng{authorfullhash}{f7d5b65b4149bbe5e07d4dcb383f6de3}
+      \strng{authorfullhashraw}{f7d5b65b4149bbe5e07d4dcb383f6de3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper proposes a novel school choice system where schools are grouped into hierarchical bundles and offered to students as options for preference reports. By listing a bundle, a student seeks admission to any school within it without ranking these schools. This approach helps students who struggle to rank schools precisely and expands options on limited preference lists, potentially improving match outcomes. We design a modified deferred acceptance mechanism to handle bundle reports while preserving stability. Laboratory experiments support our theory, showing that well-constructed bundles aligned with student preferences enhance welfare and match rates without compromising fairness. Practical applications are discussed.}
+      \field{day}{7}
+      \field{eprintclass}{econ}
+      \field{eprinttype}{arXiv}
+      \field{month}{4}
+      \field{pubstate}{prepublished}
+      \field{title}{Bundled {{School Choice}}}
+      \field{urlday}{7}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2501.04241
+      \endverb
+      \verb{eprint}
+      \verb 2501.04241
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\XHYNUNV4\Huang and Zhang - 2025 - Bundled School Choice.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2501.04241
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2501.04241
+      \endverb
+      \keyw{Economics - Theoretical Economics}
+    \endentry
+    \entry{anderssonSequentialSchoolChoice2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=84d0a096531859706501195a071f97f8}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Tommy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=be0189863d35f8f9d875538523c6808f}{%
+           family={Dur},
+           familyi={D\bibinitperiod},
+           given={Umut},
+           giveni={U\bibinitperiod}}}%
+        {{hash=889993e7438662b39fb78ee6179978c1}{%
+           family={Ertemel},
+           familyi={E\bibinitperiod},
+           given={Sinan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b175872bc940b3f8a6e80a36c4e03a1a}{%
+           family={Kesten},
+           familyi={K\bibinitperiod},
+           given={Onur},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{2806be03fbde3b1e4bd3c828d2eeb993}
+      \strng{fullhash}{e45f4abdcdb57b5cef6519262d961013}
+      \strng{fullhashraw}{e45f4abdcdb57b5cef6519262d961013}
+      \strng{bibnamehash}{2806be03fbde3b1e4bd3c828d2eeb993}
+      \strng{authorbibnamehash}{2806be03fbde3b1e4bd3c828d2eeb993}
+      \strng{authornamehash}{2806be03fbde3b1e4bd3c828d2eeb993}
+      \strng{authorfullhash}{e45f4abdcdb57b5cef6519262d961013}
+      \strng{authorfullhashraw}{e45f4abdcdb57b5cef6519262d961013}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigate sequential two-stage admission systems with public and private schools. A sequential notion of truthfulness, called straightforwardness, is introduced. Contrary to one-stage systems, sequentiality leads to a trade-off between the existence of a straightforward equilibrium and non-wastefulness. We identify the unique set of rules for two-stage systems that guarantees the existence of a straightforward equilibrium and reduces waste. Existing admission systems in Türkiye and Sweden are analyzed within our general framework.}
+      \field{day}{1}
+      \field{issn}{1432-217X}
+      \field{journaltitle}{Social Choice and Welfare}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{2}
+      \field{shortjournal}{Soc Choice Welf}
+      \field{title}{Sequential School Choice with Public and Private Schools}
+      \field{urlday}{8}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{63}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{231\bibrangedash 276}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1007/s00355-024-01527-0
+      \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\F6GB4YIB\Andersson et al. - 2024 - Sequential school choice with public and private schools.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00355-024-01527-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00355-024-01527-0
+      \endverb
+    \endentry
     \entry{sattin-bajajStudentTransportationChoiceRich2023}{article}{}{}
       \name{author}{1}{}{%
         {{hash=19c40947410bdb64d2c162f000ea37ce}{%
@@ -1494,8 +1574,8 @@
       \strng{authornamehash}{19c40947410bdb64d2c162f000ea37ce}
       \strng{authorfullhash}{19c40947410bdb64d2c162f000ea37ce}
       \strng{authorfullhashraw}{19c40947410bdb64d2c162f000ea37ce}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Despite a growing recognition of the significance of student transportation for promoting equitable school choice, to date, there has been limited understanding of the implementation of school transportation policies, particularly in choice-heavy settings. Moreover, little is known about the challenges associated with managing student transportation in large school districts or how school and district administrators working in distinct contexts respond to these challenges. This brief draws on interview data collected from district administrators, charter school leaders, charter authorizers, and stakeholders in three choice-rich school districts with distinct transportation policies and public transit infrastructures—Detroit, New Orleans, and New York City—to identify the common challenges associated with implementing student transportation policies and administrators’ responses to them. The brief includes a discussion of the implications of high transportation costs, logistical complexity, and student safety challenges as well as non-uniform transportation provision and transportation policies for equitable access to charter schools. It ends with a review of some potential policy alternatives that policymakers should consider when designing transportation policies or working to improve existing transportation practices.}
@@ -1553,8 +1633,8 @@
       \strng{authornamehash}{282530df6919f23333be810995047ca2}
       \strng{authorfullhash}{282530df6919f23333be810995047ca2}
       \strng{authorfullhashraw}{282530df6919f23333be810995047ca2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Using uniquely detailed individual-level data on transportation provided to all New York City public school students, we examine the relationship between tra…}
@@ -1609,8 +1689,8 @@
       \strng{authornamehash}{28cd374454c5b31c256f5d0102d6bd47}
       \strng{authorfullhash}{9b17c44d1244c3e1dc74cf238158c800}
       \strng{authorfullhashraw}{9b17c44d1244c3e1dc74cf238158c800}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{We address the emerging challenge of school segregation within the context of free school choice systems. Households take into account both proximity and demographic composition when deciding on which schools to send their children to, potentially exacerbating residential segregation. This raises an important question: can we strategically intervene in transportation networks to enhance school access and mitigate segregation? In this paper, we propose a novel, network agent-based model to explore this question. Through simulations in both synthetic and real-world networks, we demonstrate that enhancing school accessibility via transportation network interventions can lead to a reduction in school segregation, under specific conditions. We introduce group-based network centrality measures and show that increasing the centrality of certain neighborhood nodes with respect to a transportation network can be an effective strategy for strategic interventions. We conduct experiments in two synthetic network environments, as well as in an environment based on real-world data from Amsterdam, the Netherlands. In both cases, we simulate a population of representative agents emulating real citizens’ schooling preferences, and we assume that agents belong to two different groups (e.g., based on migration background). We show that, under specific homophily regimes in the population, school segregation can be reduced by up to 35\%. Our proposed framework provides the foundation to explore how citizens’ preferences, school capacity, and public transportation can shape patterns of urban segregation.}

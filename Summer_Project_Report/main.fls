@@ -128,6 +128,7 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT main.pdf
 INPUT c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
@@ -136,6 +137,7 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

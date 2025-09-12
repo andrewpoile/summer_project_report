@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.28)  12 SEP 2025 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.28)  12 SEP 2025 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -500,7 +500,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
 []\OT1/cmr/bx/n/12 Socio-economic seg-re-ga-tion in
  []
 
@@ -532,11 +532,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--64
 
 [5]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 122.
+(Font)              <7> on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 122.
+(Font)              <5> on input line 134.
 
-Overfull \hbox (23.742pt too wide) in paragraph at lines 123--123
+Overfull \hbox (23.742pt too wide) in paragraph at lines 135--135
 \OT1/cmr/m/it/10 can Eco-nomic Re-view \OT1/cmr/m/n/10 93.3 (May 1, 2003), pp. 729{747. \OT1/cmr/m/sc/10 issn\OT1/cmr/m/n/10 : 0002-8282. \OT1/cmr/m/sc/10 doi\OT1/cmr/m/n/10 : $\OT1/cmtt/m/n/10 10 . 1257 / 000282803322157061$\OT1/cmr/m/n/10 .
  []
 
@@ -556,18 +556,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11002 strings out of 467800
- 214391 string characters out of 5436061
- 1072748 words of memory out of 5000000
- 39569 multiletter control sequences out of 15000+600000
- 631587 words of font info for 56 fonts, out of 8000000 for 9000
+ 11013 strings out of 467800
+ 214967 string characters out of 5436061
+ 1075019 words of memory out of 5000000
+ 39579 multiletter control sequences out of 15000+600000
+ 631895 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,6n,66p,1858b,1378s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (8 pages, 140492 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (8 pages, 158739 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
