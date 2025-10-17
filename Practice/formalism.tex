@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+% Layout packages
+\usepackage[margin=0.5in]{geometry}
+\usepackage{multicol}
+
+% Formatting packages
+\usepackage{parskip}
+\usepackage{csquotes}
+
+% Body of document
+\title{Sustainable Resource Allocation in Urban School Settings (STRAUSS)}
+%\author{Andrew Poile}
+%\date{August 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Objects}
+\begin{itemize}
+    \item 3 disjoint sets; students, colleges, and routes:
+    \subitem $S = \{s_1,...,s_{n_S}\}, C = \{c_1,...,c_{n_C}\}, R = \{r_1,...,r_{n_R}\}$.
+    \item Routes have a capacity of 1: $q_r = 1$.
+    \item Each route serves one school. Routes are effectively taxi services.
+    \item Students can select either a school, or school + transport bundle.
+    \item Routes are only available in selected areas (only feasible for a subset of students $S_{r_i} \in S$ for a route i).
+    \item Student preferences over colleges and (college, route) tuples (that are available to them) are strict and complete.
+    \item 2 school priority brackets given by:
+    \subitem Students \textit{within} a certain distance of a school selecting that school \textbf{without} transport AND students \textit{within} a selected area served by a route, selecting a school \textbf{with} transport are placed in the same priority bracket; all other students placed in the bracket below this.
+    \item Ties broken randomly within priority brackets.
+\end{itemize}
+
+\section{Algorithm (modified deferred acceptance)}
+\begin{enumerate}
+\item All objects unassigned. $\mu = \emptyset$
+\item While some student $s_i$ is unmatched:
+    \subitem 1. $s_i$ proposes to the first object $a_j$ on their list; $\mu = \mu \cup \{s_i, a_j\}$.
+        \subsubitem - Each object $a$ contains exactly one school.
+        \subsubitem - Each route serves only one school.
+        \subsubitem - Each route only serves one neighbourhood.
+    \subitem 2. If the school in the object is oversubscribed:
+        \subsubitem - The lowest priority student $s_k$ in the priority list for the school in $a_j$ is released from the matching: $\mu = \mu \backslash \{s_k, a_j\}$ and released from the route.
+        \subsubitem - All students lower in priority than $s_k$ are removed from the priority list of the school in $a_j$ (and all of those students remove objects that contain the school in $a_j$ from their preference lists).
+    \subitem 3. If the route in the object has reached capacity:
+        \subsubitem - The lowest priority student $s_k$ competing for the route in the priority list for the school in $a_j$ is released from the matching: $\mu = \mu \backslash \{s_k, a_j\}$.
+\end{enumerate}
+
+\end{document}
