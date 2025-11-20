@@ -22,12 +22,13 @@
 \begin{itemize}
     \item 3 disjoint sets; students, colleges, and routes:
     \subitem $S = \{s_1,...,s_{n_S}\}, C = \{c_1,...,c_{n_C}\}, R = \{r_1,...,r_{n_R}\}$.
-    \item Routes have a capacity of 1: $q_r = 1$.
-    \item Each route serves one school. Routes are effectively taxi services.
-    \item Students can select either a school, or school + transport bundle.
+    \item Routes can have a capacity of more than 1: $q_r \geq 1$.
+    \item Each route serves one college. Routes are effectively taxi services.
     \item Routes are only available in selected areas (only feasible for a subset of students $S_{r_i} \in S$ for a route i).
-    \item Student preferences over colleges and (college, route) tuples (that are available to them) are strict and complete.
-    \item 2 school priority brackets given by:
+    \item Students can select either a college, or (route, college) tuple, hereafter referred to as object "a" eg. for $s_1: a_{11} = (r_1,c_1), a_{23} = (r_2,c_3), etc$. Each object $a$ contains exactly one college.
+    \item Student preferences over colleges and (route, college) tuples (that are available to them) are strict and complete.
+    \item All valid "a"s have their corresponding (route, student) tuples added to the top priority bracket in the priority list of the college in "a", hereafter referred to as "b" eg. for $c_1: b_{11} = (r_1,s_1), ...$, for $c_3: b_{21} = (r_2,s_1), ...$, etc.
+    \item 2 college priority brackets given by:
     \subitem Students \textit{within} a certain distance of a school selecting that school \textbf{without} transport AND students \textit{within} a selected area served by a route, selecting a school \textbf{with} transport are placed in the same priority bracket; all other students placed in the bracket below this.
     \item Ties broken randomly within priority brackets.
 \end{itemize}
@@ -35,16 +36,34 @@
 \section{Algorithm (modified deferred acceptance)}
 \begin{enumerate}
 \item All objects unassigned. $\mu = \emptyset$
-\item While some student $s_i$ is unmatched:
-    \subitem 1. $s_i$ proposes to the first object $a_j$ on their list; $\mu = \mu \cup \{s_i, a_j\}$.
-        \subsubitem - Each object $a$ contains exactly one school.
-        \subsubitem - Each route serves only one school.
-        \subsubitem - Each route only serves one neighbourhood.
-    \subitem 2. If the school in the object is oversubscribed:
-        \subsubitem - The lowest priority student $s_k$ in the priority list for the school in $a_j$ is released from the matching: $\mu = \mu \backslash \{s_k, a_j\}$ and released from the route.
-        \subsubitem - All students lower in priority than $s_k$ are removed from the priority list of the school in $a_j$ (and all of those students remove objects that contain the school in $a_j$ from their preference lists).
-    \subitem 3. If the route in the object has reached capacity:
-        \subsubitem - The lowest priority student $s_k$ competing for the route in the priority list for the school in $a_j$ is released from the matching: $\mu = \mu \backslash \{s_k, a_j\}$.
+\item While some student $s_n$ is unmatched:
+    \begin{enumerate}
+        \item $s_n$ proposes to the first preference on their preference list (either $c_j$ or $a_{ij} = (r_i,c_j)$):
+        \item If applying to a college $c_j$ with no route then $\mu = \mu \cup \{s_n, c_j\}$. If applying to a college with a route $a_{ij}$ then $\mu = \mu \cup \{s_n, a_{ij}\}$. If the college is oversubscribed in either case:
+        \begin{enumerate}
+            \item The lowest priority object (either student $s_k$ or student-route tuple $b_{il} = (r_i,s_l)$) in the priority list for $c_j$ is identified:
+            \begin{itemize}
+                \item in the case of $s_k$, it is directly released from the matching: $\mu = \mu \backslash \{s_k, c_j\}$
+                \item in the case of $b_{il}$ the complementary object $a_{ij} = (r_i,c_j)$ and student $s_l$ are released from the matching: $\mu = \mu \backslash \{s_l, a_{ij}\}$. If $b_{il}$ is released from $c_j$ then $s_l$ is also released from the route $r_i$.
+            \end{itemize}
+        \end{enumerate}
+        \item If applying to a college with a route $a_{ij}$ then $\mu = \mu \cup \{s_n, a_{ij}\}$. If route $r_i$ has reached capacity:
+        \begin{enumerate}
+            \item The student $s_k$ from the lowest priority, complementary route-student tuple $b_{ik} = (r_i,s_k)$ competing for the route $r_i$ in the priority list for $c_j$ is released from the matching: $\mu = \mu \backslash \{s_k, a_{ij}\}$.
+        \end{enumerate}
+    \end{enumerate}
+    
+        %\subsubitem - All students lower in priority than $s_k$ are removed from the priority list of the school in $a_j$ (and all of those students remove objects that contain the school in $a_j$ from their preference lists).
+\end{enumerate}
+
+\section{Checking stability}
+The algorithm outputs two objects: the (stable) matching and the list of unassigned students; both must be checked for blocking pairs.
+\begin{enumerate}
+    \item For the matching:
+    \begin{enumerate}
+        \item 
+    \end{enumerate}
+    \item 
 \end{enumerate}
 
 \end{document}
