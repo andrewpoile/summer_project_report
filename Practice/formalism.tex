@@ -61,9 +61,27 @@ The algorithm outputs two objects: the (stable) matching and the list of unassig
 \begin{enumerate}
     \item For the matching:
     \begin{enumerate}
-        \item 
+        \item For each student, s, check their top preference:
+        \begin{itemize}
+            \item IF they are assigned their top preference then they cannot form a blocking pair.
+            \item ELSE IF they are not assigned their top preference, begin checking the preferences starting with the most preferred:
+            \begin{itemize}
+                \item IF the preference has no route associated with it AND the associated college has spare capacity: forms a blocking pair.
+                \item ELSE IF the preference has no route associated with it AND the associated college IS at capacity BUT the college prefers s to any of its assigned students: form a blocking pair.
+                \item ELSE IF the preference does have a route associated with it, which is NOT at capacity AND the college has spare capacity: form a blocking pair.
+                \item ELSE IF the preference does have a route associated with it, which is NOT at capacity AND the college IS at capacity BUT the college prefers s over any of its assigned students: form a blocking pair.
+                \item ELSE IF the preference does have a route associated with it which IS at capacity AND the college is at capacity OR has spare capacity AND s is preferred to any routed student: form a blocking pair.
+            \end{itemize}
+        \end{itemize}
     \end{enumerate}
-    \item 
+    \item For the list of unassigned students (if it exists):
+    \begin{itemize}
+        \item IF the preference has no route associated with it AND the associated college has spare capacity: forms a blocking pair.
+        \item ELSE IF the preference has no route associated with it AND the associated college IS at capacity BUT the college prefers s to any of its assigned students: form a blocking pair.
+        \item ELSE IF the preference does have a route associated with it, which is NOT at capacity AND the college has spare capacity: form a blocking pair.
+        \item ELSE IF the preference does have a route associated with it, which is NOT at capacity AND the college IS at capacity BUT the college prefers s over any of its assigned students: form a blocking pair.
+        \item ELSE IF the preference does have a route associated with it which IS at capacity AND the college is at capacity OR has spare capacity AND s is preferred to any routed student: form a blocking pair.
+    \end{itemize}
 \end{enumerate}
 
 \end{document}
