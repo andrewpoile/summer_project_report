@@ -50,6 +50,7 @@
         \item If applying to a college with a route $a_{ij}$ then $\mu = \mu \cup \{s_n, a_{ij}\}$. If route $r_i$ has reached capacity:
         \begin{enumerate}
             \item The student $s_k$ from the lowest priority, complementary route-student tuple $b_{ik} = (r_i,s_k)$ competing for the route $r_i$ in the priority list for $c_j$ is released from the matching: $\mu = \mu \backslash \{s_k, a_{ij}\}$.
+            \item This is valid whether the college is at capacity or not since the end result is a student being rejected from the college.
         \end{enumerate}
     \end{enumerate}
     
@@ -83,5 +84,13 @@ The algorithm outputs two objects: the (stable) matching and the list of unassig
         \item ELSE IF the preference does have a route associated with it which IS at capacity AND the college is at capacity OR has spare capacity AND s is preferred to any routed student: form a blocking pair.
     \end{itemize}
 \end{enumerate}
+
+\section{Proof of stability}
+Suppose some student $s$ and college $c$ OR tuple $(r,c)$ are unmatched in $\mu$ after running the algorithm, but $s$ prefers $c$/$(r,c)$ to $\mu(s)$. $c$/$(r,c)$ must be acceptable to $s$ since it is on their preference list, and so $s$ must have applied to $c$/$(r,c)$ before applying to $\mu(s)$ OR before exhausting their preference list. Since $s$ is not matched to $c$/$(r,c)$ when the algorithm terminates:
+\begin{itemize}
+    \item IF $s$ is NOT eligible for $r$; either $s$ applied to $c$, was accepted and was later rejected by $c$ in favour of a higher priority student/routed student, OR $c$ was already at capacity at the point of application and was rejected as the lowest priority student/routed student.
+    \item ELSE IF $s$ IS eligible for $r$ and ONLY applied to $(r,c)$; either $s$ applied to $(r,c)$, was accepted and was later rejected from $r$ (and therefore also $c$) in favour of a higher priority routed student, OR $r$ was already at capacity at the point of application and $s$ was rejected as the lowest priority routed student.
+    \item ELSE IF $s$ IS eligible for $r$ and applied to BOTH $(r,c)$ AND $c$; BOTH of [either $s$ applied to $(r,c)$, was accepted and was later rejected from $r$ (and therefore also $c$) in favour of a higher priority routed student, OR $r$ was already at capacity at the point of application and $s$ was rejected as the lowest priority routed student] AND [either $s$ applied to $c$, was accepted and was later rejected by $c$ in favour of a higher priority student/routed student, OR $c$ was already at capacity at the point of application and was rejected as the lowest priority student/routed student].
+\end{itemize}
 
 \end{document}
