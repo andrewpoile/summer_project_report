@@ -93,4 +93,45 @@ Suppose some student $s$ and college $c$ OR tuple $(r,c)$ are unmatched in $\mu$
     \item ELSE IF $s$ IS eligible for $r$ and applied to BOTH $(r,c)$ AND $c$; BOTH of [either $s$ applied to $(r,c)$, was accepted and was later rejected from $r$ (and therefore also $c$) in favour of a higher priority routed student, OR $r$ was already at capacity at the point of application and $s$ was rejected as the lowest priority routed student] AND [either $s$ applied to $c$, was accepted and was later rejected by $c$ in favour of a higher priority student/routed student, OR $c$ was already at capacity at the point of application and was rejected as the lowest priority student/routed student].
 \end{itemize}
 
+A key aspect of stability is the order in which the oversubscription is resolved: in the case where both college and route are oversubscribed, as long as route oversubscription is resolved first, college oversubscription is resolved simultaneously. Additionally, matchings may be stable, even if routes are undersubscribed.
+
+\subsection{Examples}
+\subsubsection{Case 1}
+Consider the case:
+
+\begin{center}
+    \begin{tabular}{ r|l }
+        College&Priorities \\
+        \hline
+        $c_1$&$(r_1,s_4),(r_1,s_5),(r_1,s_6),s_3,(r_1,s_7)$ \\
+\end{tabular}
+\end{center}
+
+where $c_1$ has a capacity of 3 and $r_1$ has a capacity of 2.
+
+If the students propose in the reverse order of college $c_1$'s priority list, then we see that:
+
+\begin{enumerate}
+    \item $(r_1,s_6),s_3,(r_1,s_7)$ are initially assigned to $c_1$,
+    \item $(r_1,s_5)$ applies and displaces $(r_1,s_7)$ since $r_1$ has reached capacity (as well as $c_1$) and $(r_1,s_7)$ is the lowest priority,
+    \item $(r_1,s_4)$ applies and now there is a problem: both $r_1$ and $c_1$ are at capacity, and the order in which the oversubscription is resolved is important:
+    \begin{itemize}
+        \item If $c_1$'s oversubscription is resolved first, then $s_3$ will be rejected from the college, after which $(r_1,s_6)$ will be rejected from both route and college, leaving the college \textit{undersubscribed}, but importantly violating one of the principles that guarantees termination and stability: that colleges only "trade up."
+        \item On the contrary, if the route oversubscription is resolved first, then only $(r_1,s_6)$ will be rejected from both route and college, which satisfies both capacity conditions simultaneously.
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Case 2}
+Consider the next case where the priority list is prepended with $s_1,s_2$, who are local students in the upper priority bracket.
+
+\begin{center}
+    \begin{tabular}{ r|l }
+        College&Priorities \\
+        \hline
+        $c_1$&$s_1,s_2,(r_1,s_4),(r_1,s_5),(r_1,s_6),s_3,(r_1,s_7)$ \\
+\end{tabular}
+\end{center}
+
+After following the same procedure as above, $s_1,s_2$ now apply to $c_1$ in reverse order as before, displacing first $s_3$, then $(r_1,s_5)$. It is obvious to see that this will leave $r_1$ \textit{undersubscribed}. This is not an issue here however because there are no students, routed or otherwise who would be able to change the assignment, as all other acceptable students have already been rejected.
+
 \end{document}
