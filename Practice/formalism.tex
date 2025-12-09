@@ -25,9 +25,9 @@
     \item Routes can have a capacity of more than 1: $q_r \geq 1$.
     \item Each route serves one college. Routes are effectively taxi services.
     \item Routes are only available in selected areas (only feasible for a subset of students $S_{r_i} \in S$ for a route i).
-    \item Students can select either a college, or (route, college) tuple, hereafter referred to as object "a" eg. for $s_1: a_{11} = (r_1,c_1), a_{23} = (r_2,c_3), etc$. Each object $a$ contains exactly one college.
+    \item Students can select either a college, or (route, college) tuple, hereafter referred to as object \enquote{a} eg. for $s_1: a_{11} = (r_1,c_1), a_{23} = (r_2,c_3), etc$. Each object $a$ contains exactly one college.
     \item Student preferences over colleges and (route, college) tuples (that are available to them) are strict and complete.
-    \item All valid "a"s have their corresponding (route, student) tuples added to the top priority bracket in the priority list of the college in "a", hereafter referred to as "b" eg. for $c_1: b_{11} = (r_1,s_1), ...$, for $c_3: b_{21} = (r_2,s_1), ...$, etc.
+    \item All valid \enquote{a}s have their corresponding (route, student) tuples added to the top priority bracket in the priority list of the college in \enquote{a}, hereafter referred to as \enquote{b} eg. for $c_1: b_{11} = (r_1,s_1), ...$, for $c_3: b_{21} = (r_2,s_1), ...$, etc.
     \item 2 college priority brackets given by:
     \subitem Students \textit{within} a certain distance of a school selecting that school \textbf{without} transport AND students \textit{within} a selected area served by a route, selecting a school \textbf{with} transport are placed in the same priority bracket; all other students placed in the bracket below this.
     \item Ties broken randomly within priority brackets.
@@ -35,26 +35,24 @@
 
 \section{Algorithm (modified deferred acceptance)}
 \begin{enumerate}
-\item All objects unassigned. $\mu = \emptyset$
-\item While some student $s_n$ is unmatched:
+\item All objects unassigned: $\mu = \emptyset$.
+\item While some student $s_n$ is free:
     \begin{enumerate}
         \item $s_n$ proposes to the first preference on their preference list (either $c_j$ or $a_{ij} = (r_i,c_j)$):
+        \item If applying to a college with a route, $a_{ij}$, then $\mu = \mu \cup \{s_n, a_{ij}\}$. If route $r_i$ has reached capacity:
+        \begin{enumerate}
+            \item The student $s_k$ from the lowest priority, complementary route-student tuple $b_{ik} = (r_i,s_k)$ competing for the route $r_i$ in the priority list for $c_j$ is released from the matching: $\mu = \mu \backslash \{s_k, a_{ij}\}$. Since each route only serves one college, the student $s_k$ is also rejected from the associated college $c_j$. Student $s_k$ removes $a_{ij}$ from their preference list and will not propose to them again.
+        \end{enumerate}
         \item If applying to a college $c_j$ with no route then $\mu = \mu \cup \{s_n, c_j\}$. If applying to a college with a route $a_{ij}$ then $\mu = \mu \cup \{s_n, a_{ij}\}$. If the college is oversubscribed in either case:
         \begin{enumerate}
             \item The lowest priority object (either student $s_k$ or student-route tuple $b_{il} = (r_i,s_l)$) in the priority list for $c_j$ is identified:
             \begin{itemize}
-                \item in the case of $s_k$, it is directly released from the matching: $\mu = \mu \backslash \{s_k, c_j\}$
-                \item in the case of $b_{il}$ the complementary object $a_{ij} = (r_i,c_j)$ and student $s_l$ are released from the matching: $\mu = \mu \backslash \{s_l, a_{ij}\}$. If $b_{il}$ is released from $c_j$ then $s_l$ is also released from the route $r_i$.
+                \item in the case of $s_k$, it is directly released from the matching: $\mu = \mu \backslash \{s_k, c_j\}$, and $s_k$ removes $c_j$ from their preference list and will not propose to them again,
+                \item in the case of $b_{il}$ the complementary object $a_{ij} = (r_i,c_j)$ and student $s_l$ are released from the matching: $\mu = \mu \backslash \{s_l, a_{ij}\}$. If $b_{il}$ is released from $c_j$ then $s_l$ is also released from the route $r_i$. Student $s_l$ will remove $a_{ij}$ from their preference list and will not propose to them again.
             \end{itemize}
         \end{enumerate}
-        \item If applying to a college with a route $a_{ij}$ then $\mu = \mu \cup \{s_n, a_{ij}\}$. If route $r_i$ has reached capacity:
-        \begin{enumerate}
-            \item The student $s_k$ from the lowest priority, complementary route-student tuple $b_{ik} = (r_i,s_k)$ competing for the route $r_i$ in the priority list for $c_j$ is released from the matching: $\mu = \mu \backslash \{s_k, a_{ij}\}$.
-            \item This is valid whether the college is at capacity or not since the end result is a student being rejected from the college.
-        \end{enumerate}
+        \item If any student $s_n$ has applied to all objects in their preference list, and has been rejected by all of them, thus exhausting their preference list, they issue no further applications and are no longer considered \enquote{free,} but \enquote{unmatched.}
     \end{enumerate}
-    
-        %\subsubitem - All students lower in priority than $s_k$ are removed from the priority list of the school in $a_j$ (and all of those students remove objects that contain the school in $a_j$ from their preference lists).
 \end{enumerate}
 
 \section{Checking stability}
@@ -85,26 +83,59 @@ The algorithm outputs two objects: the (stable) matching and the list of unassig
     \end{itemize}
 \end{enumerate}
 
+\section{Proof of termination}
+
+\begin{enumerate}
+    \item The number of agents, the length of the preference and priority lists, and the college and route capacities are all finite.
+    \item Students propose to objects in order of preference, and if they are accepted by an object they will not propose again unless they are unmatched with that object at a later stage. If they are unmatched later, they will not propose to objects that they have been unmatched with, so their preference lists will be weakly decreasing with every iteration of the algorithm.
+    \item Even if all students were unacceptable to all colleges, and every student was rejected at every stage, there would be a maximum of $n \times m$ proposals, where $n$ is the number of students and $m$ is the number of colleges.
+    % \item Colleges that have capacity will accept any student that applies. Routes that have capacity will accept any student that applies.
+    % \item If a student applies, without a route, to a college which is at capacity, that college will only accept that student if it can reject a student which is of a lower priority than the applying student, otherwise the applying student is rejected as the lowest priority student, i.e. each application weakly improves the college's lowest priority student.
+    % \item Combining 3 \& 4 means that a college can only weakly fill its capacity with each iteration.
+    % \item If a student applies, with a route, to a college which is at capacity, that college will only accept that student if it can reject a student which is of a lower priority than the applying student, otherwise the applying student is rejected as the lowest priority student, i.e. each application weakly improves the college's lowest priority student.
+\end{enumerate}
+
+
 \section{Proof of stability}
-Suppose some student $s$ and college $c$ OR tuple $(r,c)$ are unmatched in $\mu$ after running the algorithm, but $s$ prefers $c$/$(r,c)$ to $\mu(s)$. $c$/$(r,c)$ must be acceptable to $s$ since it is on their preference list, and so $s$ must have applied to $c$/$(r,c)$ before applying to $\mu(s)$ OR before exhausting their preference list. Since $s$ is not matched to $c$/$(r,c)$ when the algorithm terminates:
+Suppose there exists some student $s$ and [college $c$ OR tuple $(r,c)$] which are not matched together in $\mu$ after termination of the algorithm such that neither $(s,c)$ nor $(s,(r,c))$ are in the matching $\mu$.
+
+Suppose also that $s$ prefers [$c$ OR $(r,c)$] to $\mu(s)$ and hence [$c$ OR $(r,c)$] must be acceptable to $s$, and $s$ must have applied to [$c$ OR $(r,c)$] before applying to $\mu(s)$. In the case where $\mu(s)$ is empty, the student $s$ must be unmatched, and hence must have exhausted their entire preference list before ending up unmatched.
+
+Since $s$ is not matched to [$c$ OR $(r,c)$] when the algorithm terminates:
 \begin{itemize}
-    \item IF $s$ is NOT eligible for $r$; either $s$ applied to $c$, was accepted and was later rejected by $c$ in favour of a higher priority student/routed student, OR $c$ was already at capacity at the point of application and was rejected as the lowest priority student/routed student.
-    \item ELSE IF $s$ IS eligible for $r$ and ONLY applied to $(r,c)$; either $s$ applied to $(r,c)$, was accepted and was later rejected from $r$ (and therefore also $c$) in favour of a higher priority routed student, OR $r$ was already at capacity at the point of application and $s$ was rejected as the lowest priority routed student.
-    \item ELSE IF $s$ IS eligible for $r$ and applied to BOTH $(r,c)$ AND $c$; BOTH of [either $s$ applied to $(r,c)$, was accepted and was later rejected from $r$ (and therefore also $c$) in favour of a higher priority routed student, OR $r$ was already at capacity at the point of application and $s$ was rejected as the lowest priority routed student] AND [either $s$ applied to $c$, was accepted and was later rejected by $c$ in favour of a higher priority student/routed student, OR $c$ was already at capacity at the point of application and was rejected as the lowest priority student/routed student].
+    \item IF $s$ is NOT eligible for $r$: either $s$ applied to $c$, was accepted and then later rejected by $c$ in favour of a higher priority student/routed student, OR $c$ was already at capacity at the point of application and was rejected as the lowest priority student/routed student.
+    \item ELSE IF $s$ IS eligible for $r$ and ONLY applied to $(r,c)$; either:
+    \begin{itemize}
+        \item $s$ applied to $(r,c)$, was accepted and was later rejected from $r$ (and since $r$ only serves $c$ is therefore also rejected from $c$) in favour of a higher priority student routed to $c$, OR $r$ was already at capacity at the point of application and $s$ was rejected as the lowest priority student routed to $r$,
+        \item OR
+        \item $s$ applied to $(r,c)$, was accepted and later rejected from $c$ in favour of a higher priority student/routed student, OR $c$ was already at capacity at the point of application and was rejected as the lowest priority student/routed student.
+    \end{itemize}
+    \item ELSE IF $s$ IS eligible for $r$ and applied to BOTH $(r,c)$ AND $c$; BOTH:
+    \begin{itemize}
+        \item $s$ applied to $(r,c)$, was accepted and was later rejected from $r$ (and therefore also $c$) in favour of a higher priority routed student, OR $r$ was already at capacity at the point of application and $s$ was rejected as the lowest priority routed student
+        \item AND
+        \item $s$ applied to $c$, was accepted and was later rejected by $c$ in favour of a higher priority student/routed student, OR $c$ was already at capacity at the point of application and was rejected as the lowest priority student/routed student.
+    \end{itemize}
 \end{itemize}
 
-A key aspect of stability is the order in which the oversubscription is resolved: in the case where both college and route are oversubscribed, as long as route oversubscription is resolved first, college oversubscription is resolved simultaneously. Additionally, matchings may be stable, even if routes are undersubscribed.
+A key aspect of the stability of our algorithm is the order in which the oversubscription is resolved in the case where both college and route are oversubscribed: as long as route oversubscription is resolved first, college oversubscription is resolved simultaneously and the number of remaining seats of a college \textit{can only weakly decrease with each step of the algorithm.}
+
+Because of this, \textit{the lowest priority student in a college's preference list can \textbf{only} weakly improve.} Hence, the cases above hold not only at the point of rejection, but at the termination of the algorithm.
+
+Additionally, matchings may be stable, even if routes are undersubscribed.
+
+Below are examples that showcase the above statements:
 
 \subsection{Examples}
 \subsubsection{Case 1}
 Consider the case:
 
 \begin{center}
-    \begin{tabular}{ r|l }
+    \begin{tabular}{ c|l }
         College&Priorities \\
         \hline
         $c_1$&$(r_1,s_4),(r_1,s_5),(r_1,s_6),s_3,(r_1,s_7)$ \\
-\end{tabular}
+    \end{tabular}
 \end{center}
 
 where $c_1$ has a capacity of 3 and $r_1$ has a capacity of 2.
@@ -113,11 +144,14 @@ If the students propose in the reverse order of college $c_1$'s priority list, t
 
 \begin{enumerate}
     \item $(r_1,s_6),s_3,(r_1,s_7)$ are initially assigned to $c_1$,
-    \item $(r_1,s_5)$ applies and displaces $(r_1,s_7)$ since $r_1$ has reached capacity (as well as $c_1$) and $(r_1,s_7)$ is the lowest priority,
-    \item $(r_1,s_4)$ applies and now there is a problem: both $r_1$ and $c_1$ are at capacity, and the order in which the oversubscription is resolved is important:
+    \item $(r_1,s_5)$ applies and displaces $(r_1,s_7)$ since $r_1$ has reached capacity (as well as $c_1$) and $(r_1,s_7)$ is the lowest priority:
     \begin{itemize}
-        \item If $c_1$'s oversubscription is resolved first, then $s_3$ will be rejected from the college, after which $(r_1,s_6)$ will be rejected from both route and college, leaving the college \textit{undersubscribed}, but importantly violating one of the principles that guarantees termination and stability: that colleges only "trade up."
-        \item On the contrary, if the route oversubscription is resolved first, then only $(r_1,s_6)$ will be rejected from both route and college, which satisfies both capacity conditions simultaneously.
+        \item $r_1$ and $c_1$ reach capacity simultaneously, but since the lowest priority item, $(r_1,s_7)$, is simultaneously the lowest priority item in $c_1$'s priority list \textit{and} the lowest priority routed student, the order in which the overcapacity problem is solved does not matter.
+    \end{itemize}
+    \item $(r_1,s_4)$ applies and now there is a problem: both $r_1$ and $c_1$ are already at capacity, and the order in which the oversubscription is resolved is important:
+    \begin{itemize}
+        \item If $c_1$'s oversubscription is resolved first, then $s_3$ will be rejected from the college, after which $(r_1,s_6)$ will be rejected from both route and college, resulting in the final allocation $c_1:(r_1,s_4),(r_1,s_5)$, leaving the college \textit{undersubscribed}, but importantly violating one of the principles that guarantees termination and stability: that colleges only \enquote{trade up.}
+        \item On the contrary, if the route oversubscription is resolved first, then only $(r_1,s_6)$ will be rejected from both route and college, which satisfies both capacity conditions simultaneously, and the final allocation will be: $c_1:(r_1,s_4),(r_1,s_5),s_3$.
     \end{itemize}
 \end{enumerate}
 
@@ -125,13 +159,34 @@ If the students propose in the reverse order of college $c_1$'s priority list, t
 Consider the next case where the priority list is prepended with $s_1,s_2$, who are local students in the upper priority bracket.
 
 \begin{center}
-    \begin{tabular}{ r|l }
+    \begin{tabular}{ c|l }
         College&Priorities \\
         \hline
         $c_1$&$s_1,s_2,(r_1,s_4),(r_1,s_5),(r_1,s_6),s_3,(r_1,s_7)$ \\
 \end{tabular}
 \end{center}
 
-After following the same procedure as above, $s_1,s_2$ now apply to $c_1$ in reverse order as before, displacing first $s_3$, then $(r_1,s_5)$. It is obvious to see that this will leave $r_1$ \textit{undersubscribed}. This is not an issue here however because there are no students, routed or otherwise who would be able to change the assignment, as all other acceptable students have already been rejected.
+After following the same procedure as above, $s_1,s_2$ now apply to $c_1$ in reverse order as before, displacing first $s_3$, then $(r_1,s_5)$. This will leave $r_1$ \textit{undersubscribed}. This is not an issue here however because there are no students, routed or otherwise who have a higher priority than the assigned students, and that would be able to change the assignment, as all other acceptable students have already been rejected, and they cannot re-apply later.
+
+\section{Proof of Student Optimality}
+Theorem: No student is rejected by an achievable object and so the algorithm returns the student optimal stable matching.
+
+Proof: Suppose the algorithm is at iteration $i$ and no student has been unmatched with an object that is achievable to them:
+\begin{enumerate}
+    \item At this iteration $i$ suppose route $r$, which serves only college $c$ and inherits its priority list, is at capacity and student $s$ who applied to $c$ with route $r$ (henceforth called $(r,s)$), is rejected from both $r$ and $c$:
+    \begin{itemize}
+        \item If $(r,s)$ is rejected in favour of $(r,s')$, then $(r,s)$ is lower in $c$'s priority list than $(r,s')$.
+        \item Since there have been no rejections up until this iteration, and students apply to their top preferences first in the algorithm, we know that $(r,s')$ prefers $c$ over all other colleges.
+        \item If we consider a matching $\mu$ where $(r,s)$ is matched to $c$ and all other students are matched to achievable objects, we know it will be unstable since $(r,s')$ prefers $c$ to its current partner, and $c$ prefers $(r,s')$ to $(r,s)$.
+        \item Hence, there is no stable matching where $(r,s)$ is matched to $c$, and so they are unachievable for each other.
+    \end{itemize}
+    \item Else at this iteration suppose college $c$ is at capacity and rejects student $s$ or $(r,s)$.
+    \begin{itemize}
+        \item If $s$ or $(r,s)$ is rejected in favour of $s'$ or $(r,s')$, then $s$ or $(r,s)$ is lower in $c$'s priority list than either of $s'$ or $(r,s')$.
+        \item Clearly $s'$ or $(r,s')$ prefer $c$ over all other colleges since students apply to their top preferences first in the algorithm, and no student has been rejected as of iteration $i$.
+        \item If we consider a matching $\mu'$ where $s$ or $(r,s)$ is matched to $c$ and all other students are matched to achievable objects, we know it will be unstable since $s'$ or $(r,s')$ prefers $c$ to its current partner, and $c$ prefers $s'$ or $(r,s')$ to $s$ or $(r,s)$.
+        \item Hence, there is no stable matching where $s$ or $(r,s)$ is matched to $c$, and so they are unachievable for each other.
+    \end{itemize}
+\end{enumerate}
 
 \end{document}
