@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\urlstyle{same}
+
+\title{Proposal draft}
+\author{Andrew}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Project overview}
+Construct a simple graph where nodes represent census tracts or local districts of a city, and edges represent transportation connections between nodes. Nodes can contain students, schools, or both. We can assume that agents travelling a distance greater than some threshold will use single occupancy vehicles (SOVs) by default. We want to minimise the use of SOVs to deliver children to school on the principle that the per capita greenhouse gas emissions, and contribution to road congestion (which in turn leads to more greenhouse gas emissions) are far greater for SOVs.
+
+Under a fixed school allocation mechanism, we want to look at the effect on SOV usage that introducing public transport links between nodes has. Agents can be allocated by deferred acceptance (with strict preferences), modified to have school priorities be catchment areas which include all nodes directly connected to the school node, where ties are broken based on the length of the edges to those nodes. Student preferences are affected by their choice functions.
+
+\section{Aims and Objectives}
+
+\begin{itemize}
+    \item We want to add edges to the network, optimising for the maximal displacement of SOVs per edge added. This is a parameter which can be tuned perhaps. We assume that edges added to the network are a kind of public transport i.e. that it carries many people at once with fixed emissions per route.
+    \begin{itemize}
+        \item Could extend by looking at directed graphs to represent different travel behaviours to and from school.
+        \item Could extend by analysing how transport capacity affects the optimal placement of edges. 
+    \end{itemize}
+    \item We can analyse the system under different choice functions, to see how it affects the uptake of transport routes. The agents' choice functions should incorporate the distance to the school, but also some exogenous school quality factor which determines how high it will be on agents' preference lists.
+    \begin{itemize}
+        \item Could extend by making quality be proportional to "popularity" and making it an endogenous factor, which relies on the number of applicants (from an initial random seed perhaps).
+        \item Could also include a "conscientiousness" factor which determines how likely an agent is to switch to public transport.
+    \end{itemize}
+    \item Finally we want to try and optimise under a budget, where some edges are more costly than others, reflecting the distance between nodes or traversal through congested areas for example.
+\end{itemize}
+
+\section{CDT alignment and Feasibility}
+Fits in with the AI for Transportation and Logistics theme, as we are exploring alternative ways to allocate students to schools by offering transportation options to students. We are analysing the way that the allocation of students affects the usage of transport links in a network, and how we can optimally reduce the emissions via displacement of SOVs.
+
+\section{Extra info}
+
+\section{Literature review}
+At least read:
+
+\href{https://doi.org/10.1007/s10458-024-09652-x}{Tackling school segregation with transportation network interventions: an agent-based modelling approach}
+
+Gale \& Shapley's seminal paper
+
+\href{https://doi.org/10.1257/000282803322157061}{School Choice: A Mechanism Design Approach}
+
+\end{document}
