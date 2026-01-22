@@ -20,22 +20,24 @@
 
 \section{Objects}
 \begin{itemize}
-    \item 3 disjoint sets; students, colleges, and routes:
+    \item 3 disjoint sets; students, colleges, routes:
     \subitem $S = \{s_1,...,s_{n_S}\}, C = \{c_1,...,c_{n_C}\}, R = \{r_1,...,r_{n_R}\}$.
+    \item 2 sets constructed from elements of the 3 sets above; route-college tuples and route-student tuples:
+    \subitem $A = \{a_{11},...,a_{n_R n_C}\}$ where eg. for student $s_1: a_{11} = (r_1,c_1) \succ ... \succ a_{23} = (r_2,c_3) \succ ...$ etc,
+    \subitem $B = \{b_{11},...,b_{n_R n_S}\}$ where eg. for college $c_1: b_{11} = (r_1,s_1) \succ ...$, for $c_3: b_{21} = (r_2,s_1) \succ ...$, etc.
+    \item College over-subscription priorities divided into 2 priority brackets given by:
+    \subitem Students \textit{within} a certain distance of a school selecting that school \textbf{without} transport AND students \textit{within} a selected area served by a route, selecting a school \textbf{with} transport are placed in the same priority bracket; all other students placed in the bracket below this.
     \item Routes can have a capacity of more than 1: $q_r \geq 1$.
     \item Each route serves one college. Routes are effectively taxi services.
-    \item Routes are only available in selected areas (only feasible for a subset of students $S_{r_i} \in S$ for a route i).
-    \item Students can select either a college, or (route, college) tuple, hereafter referred to as object \enquote{a} eg. for $s_1: a_{11} = (r_1,c_1), a_{23} = (r_2,c_3), etc$. Each object $a$ contains exactly one college.
-    \item Student preferences over colleges and (route, college) tuples (that are available to them) are strict and complete.
-    \item All valid \enquote{a}s have their corresponding (route, student) tuples added to the top priority bracket in the priority list of the college in \enquote{a}, hereafter referred to as \enquote{b} eg. for $c_1: b_{11} = (r_1,s_1), ...$, for $c_3: b_{21} = (r_2,s_1), ...$, etc.
-    \item 2 college priority brackets given by:
-    \subitem Students \textit{within} a certain distance of a school selecting that school \textbf{without} transport AND students \textit{within} a selected area served by a route, selecting a school \textbf{with} transport are placed in the same priority bracket; all other students placed in the bracket below this.
-    \item Ties broken randomly within priority brackets.
+    \item Routes are only available in selected areas (only feasible for a subset of students $S_{r_i} \in S$ for a route i). The area would be selected based on SES indicators, such as eligibility for free school meals, to maximise the impact of improving priority for students (current model selects a random subset of students to be served by routes, and each student is served by one route).
+    \item Eligible students (those served by routes) can select either a college, or route-college tuple, eg. in student $s_1$'s preference list: $a_{11} = (r_1,c_1) \succ a_{23} = (r_2,c_3) \succ c_1 \succ c_3 \succ ...$ etc. Each object $a$ contains exactly one college. Ineligible students may only select colleges and are unable to select route-college tuples.
+    \item Each route-college tuple has a \textbf{corresponding route-student tuple}, where the route is shared between the two tuples, eg. for $c_1: b_{11} = (r_1,s_1), s_1, ...$, and for $c_3: b_{21} = (r_2,s_1), s_1, ...$, etc from the route-college tuples above. All route-college tuples have their corresponding route-student tuples added to the top priority bracket in the priority list of the college in the route-college tuple.
+    \item Student preferences over colleges and route-college tuples (that are available to them), and college priorities over students and route-student tuples are strict and complete.
 \end{itemize}
 
 \section{Algorithm (modified deferred acceptance)}
 \begin{enumerate}
-\item All objects unassigned: $\mu = \emptyset$.
+\item Start with no student or college assigned to a matching: $\mu = \emptyset$.
 \item While some student $s_n$ is free:
     \begin{enumerate}
         \item $s_n$ proposes to the first preference on their preference list (either $c_j$ or $a_{ij} = (r_i,c_j)$):

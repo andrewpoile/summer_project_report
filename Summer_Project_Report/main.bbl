@@ -591,6 +591,9 @@
            given={Anne},
            giveni={A\bibinitperiod}}}%
       }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
       \strng{namehash}{5db15fe67aafa8d25791721118b4478f}
       \strng{fullhash}{5db15fe67aafa8d25791721118b4478f}
       \strng{fullhashraw}{5db15fe67aafa8d25791721118b4478f}
@@ -602,18 +605,37 @@
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper focuses on school choice and diversity in the UK (England, Wales, Scotland and Northern Ireland) in historical context. Drawing on primary and secondary documentary sources it assesses continuity, change and divergence, before addressing existing diversity and school choice, and academic outcomes. The 1944 Education Act and associated legislation established, in each country, a system of state-funded church and state schools, comprising, academically selective (grammar) and non-selective secondary schools, with test scores determining whether the child was allocated to a selective or non-selective school. The paper argues that there has been broad continuity in Northern Ireland, whilst from 1965 England, Wales and Scotland diverged when school systems were reorganized – to a greater or lesser extent – along comprehensive lines. From the 1980s, parental “choice” (and diversity) policies were implemented in all countries, albeit differently. It is argued that existing school diversity across the UK is associated with distinctive histories and political ideas, and with varying levels and types of school selectivity and social segregation. Furthermore, the institutional rules regarding who is prioritized for a school place in the event of oversubscription – particularly in the case of selective and religious schools – can constrain parental choice as they enable schools to “select in” and “select out” certain students. Whilst improving educational standards was a key goal for the Conservative government when it introduced market-oriented reforms in England, evidence points to improved academic outcomes being related to changes in assessment policy.}
+      \field{day}{2}
+      \field{issn}{1558-2159}
       \field{journaltitle}{Journal of School Choice}
       \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{School {{Choice}} ({{And Diversity}}) in the {{UK}} since 1944}
       \field{title}{School {{Choice}} ({{And Diversity}}) in the {{UK}} since 1944: {{Continuity}}, {{Change}}, {{Divergence}} and {{School Selectivity}}}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
       \field{volume}{17}
       \field{year}{2023}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \field{pages}{15\bibrangedash 34}
       \range{pages}{20}
       \verb{doi}
       \verb 10.1080/15582159.2023.2169814
       \endverb
+      \verb{file}
+      \verb C:\Users\aejp1u19\Zotero\storage\29GSXWC6\West - 2023 - School Choice (And Diversity) in the UK since 1944 Continuity, Change, Divergence and School Select.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/15582159.2023.2169814
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/15582159.2023.2169814
+      \endverb
+      \keyw{academic outcomes,diversity,historical development,School choice,segregation,UK}
     \endentry
     \entry{SchoolAdmissionsCode}{article}{}{}
       \field{sortinit}{9}
@@ -650,14 +672,16 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{School choice systems aspire to delink residential location and school assignments by allowing children to apply to schools outside of their neighborhood. However, choice programs also affect incentives to live in certain neighborhoods, and this feedback may undermine the goals of choice. We investigate this possibility by developing a model of public school and residential choice. School choice narrows the range between the highest and lowest quality schools compared to neighborhood assignment rules, and these changes in school quality are capitalized into equilibrium housing prices. This compressed distribution generates an ends-against-the-middle trade-off with school choice compared to neighborhood assignment. Paradoxically, even when choice results in improvement in the lowest-performing schools, the lowest type residents need not benefit.}
+      \field{abstract}{School choice systems aspire to delink residential location and school assignments by allowing children to apply to schools outside of their neighborhood. However, choice programs also affect incentives to live in certain neighborhoods, and this feedback may undermine the goals of choice. We investigate this possibility by developing a model of public school and residential choice. School choice narrows the range between the highest and lowest quality schools compared to neighborhood assignment rules, and these changes in school quality are capitalized into equilibrium housing prices. This compressed distribution generates an ends-against-the-middle trade-off with school choice compared to neighborhood assignment. Paradoxically, even when choice results in improvement in the lowest-performing schools, the lowest type residents need not benefit. (JEL H75, I21, I28, R23, R31)}
+      \field{day}{1}
       \field{issn}{0002-8282}
       \field{journaltitle}{American Economic Review}
       \field{langid}{english}
       \field{month}{1}
       \field{number}{1}
+      \field{shortjournal}{American Economic Review}
       \field{title}{The {{Distributional Consequences}} of {{Public School Choice}}}
-      \field{urlday}{6}
+      \field{urlday}{12}
       \field{urlmonth}{9}
       \field{urlyear}{2025}
       \field{volume}{111}
@@ -670,13 +694,13 @@
       \verb 10.1257/aer.20151147
       \endverb
       \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\JN7P9MVF\Avery and Pathak - 2021 - The Distributional Consequences of Public School Choice.pdf
+      \verb C:\Users\aejp1u19\Zotero\storage\SQFSR7ZA\Avery and Pathak - 2021 - The Distributional Consequences of Public School Choice.pdf
       \endverb
       \verb{urlraw}
-      \verb https://www.aeaweb.org/articles?id=10.1257/aer.20151147
+      \verb https://pubs.aeaweb.org/doi/10.1257/aer.20151147
       \endverb
       \verb{url}
-      \verb https://www.aeaweb.org/articles?id=10.1257/aer.20151147
+      \verb https://pubs.aeaweb.org/doi/10.1257/aer.20151147
       \endverb
       \keyw{Analysis of Education,Education,Education: Government Policy,Housing Supply and Markets,Neighborhood Characteristics Housing Supply and Markets,Population,Public Pensions Analysis of Education Education: Government Policy Urban Rural Regional Real Estate and Transportation Economics: Regional Migration,Regional Labor Markets,State and Local Government: Health,State and Local Government: Health; Education; Welfare; Public Pensions,Urban Rural Regional Real Estate and Transportation Economics: Regional Migration; Regional Labor Markets; Population; Neighborhood Characteristics,Welfare}
     \endentry
@@ -1097,7 +1121,7 @@
       \field{shortjournal}{Q J Econ}
       \field{shorttitle}{The {{Impacts}} of {{Neighborhoods}} on {{Intergenerational Mobility I}}}
       \field{title}{The {{Impacts}} of {{Neighborhoods}} on {{Intergenerational Mobility I}}: {{Childhood Exposure Effects}}*}
-      \field{urlday}{4}
+      \field{urlday}{12}
       \field{urlmonth}{9}
       \field{urlyear}{2025}
       \field{volume}{133}
@@ -1110,7 +1134,7 @@
       \verb 10.1093/qje/qjy007
       \endverb
       \verb{file}
-      \verb C\:\\Users\\aejp1u19\\Zotero\\storage\\TRIARJLJ\\Chetty and Hendren - 2018 - The Impacts of Neighborhoods on Intergenerational Mobility I Childhood Exposure Effects.pdf;C\:\\Users\\aejp1u19\\Zotero\\storage\\XTLBIYP7\\qjy007.html
+      \verb C\:\\Users\\aejp1u19\\Zotero\\storage\\Q5ZXLNGH\\Chetty and Hendren - 2018 - The Impacts of Neighborhoods on Intergenerational Mobility I Childhood Exposure Effects.pdf;C\:\\Users\\aejp1u19\\Zotero\\storage\\TRIARJLJ\\Chetty and Hendren - 2018 - The Impacts of Neighborhoods on Intergenerational Mobility I Childhood Exposure Effects.pdf;C\:\\Users\\aejp1u19\\Zotero\\storage\\Q987YM6H\\qjy007.html
       \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1093/qje/qjy007
@@ -1492,70 +1516,36 @@
       \endverb
       \keyw{Economics - Theoretical Economics}
     \endentry
-    \entry{anderssonSequentialSchoolChoice2024}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=84d0a096531859706501195a071f97f8}{%
-           family={Andersson},
-           familyi={A\bibinitperiod},
-           given={Tommy},
-           giveni={T\bibinitperiod}}}%
-        {{hash=be0189863d35f8f9d875538523c6808f}{%
-           family={Dur},
-           familyi={D\bibinitperiod},
-           given={Umut},
-           giveni={U\bibinitperiod}}}%
-        {{hash=889993e7438662b39fb78ee6179978c1}{%
-           family={Ertemel},
-           familyi={E\bibinitperiod},
-           given={Sinan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b175872bc940b3f8a6e80a36c4e03a1a}{%
-           family={Kesten},
-           familyi={K\bibinitperiod},
-           given={Onur},
-           giveni={O\bibinitperiod}}}%
+    \entry{hahmDynamicFrameworkSchool}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e005ffadd825de1f37b791b1c565188c}{%
+           family={Hahm},
+           familyi={H\bibinitperiod},
+           given={Dong\bibnamedelima Woo},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=66ef3fc34c1badcee928568346a97744}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Minseon},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{2806be03fbde3b1e4bd3c828d2eeb993}
-      \strng{fullhash}{e45f4abdcdb57b5cef6519262d961013}
-      \strng{fullhashraw}{e45f4abdcdb57b5cef6519262d961013}
-      \strng{bibnamehash}{2806be03fbde3b1e4bd3c828d2eeb993}
-      \strng{authorbibnamehash}{2806be03fbde3b1e4bd3c828d2eeb993}
-      \strng{authornamehash}{2806be03fbde3b1e4bd3c828d2eeb993}
-      \strng{authorfullhash}{e45f4abdcdb57b5cef6519262d961013}
-      \strng{authorfullhashraw}{e45f4abdcdb57b5cef6519262d961013}
+      \strng{namehash}{3a771002e05311ddb94063d4bfa362aa}
+      \strng{fullhash}{3a771002e05311ddb94063d4bfa362aa}
+      \strng{fullhashraw}{3a771002e05311ddb94063d4bfa362aa}
+      \strng{bibnamehash}{3a771002e05311ddb94063d4bfa362aa}
+      \strng{authorbibnamehash}{3a771002e05311ddb94063d4bfa362aa}
+      \strng{authornamehash}{3a771002e05311ddb94063d4bfa362aa}
+      \strng{authorfullhash}{3a771002e05311ddb94063d4bfa362aa}
+      \strng{authorfullhashraw}{3a771002e05311ddb94063d4bfa362aa}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We investigate sequential two-stage admission systems with public and private schools. A sequential notion of truthfulness, called straightforwardness, is introduced. Contrary to one-stage systems, sequentiality leads to a trade-off between the existence of a straightforward equilibrium and non-wastefulness. We identify the unique set of rules for two-stage systems that guarantees the existence of a straightforward equilibrium and reduces waste. Existing admission systems in Türkiye and Sweden are analyzed within our general framework.}
-      \field{day}{1}
-      \field{issn}{1432-217X}
-      \field{journaltitle}{Social Choice and Welfare}
+      \field{abstract}{We study the dynamic relationship of school choices across different educational stages. Using quasi-random middle school assignments in New York City, we show that middle schools with top quality-review scores cause students to be matched to higher-achievement high schools, in both level and value-added. A decomposition exercise using a sequential model of middle and high school choices shows that such effects of middle schools mainly operate by affecting students’ high school applications rather than high school priorities, accounting for nearly 80\% of the total effect. By mainly changing students’ high school applications, abolishing eligibility restrictions of top quality-review-scored middle schools can not only increase the average quality of attended high schools but also narrow the racial and income disparities in it. Such efficiency and equity gains increase by up to 50\% when combined with similar high school admissions reforms.}
       \field{langid}{english}
-      \field{month}{9}
-      \field{number}{2}
-      \field{shortjournal}{Soc Choice Welf}
-      \field{title}{Sequential School Choice with Public and Private Schools}
-      \field{urlday}{8}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
-      \field{volume}{63}
-      \field{year}{2024}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{231\bibrangedash 276}
-      \range{pages}{46}
-      \verb{doi}
-      \verb 10.1007/s00355-024-01527-0
-      \endverb
+      \field{title}{A {{Dynamic Framework}} of {{School Choice}}: {{Effects}} of {{Middle Schools}} on {{High School Choice}}}
       \verb{file}
-      \verb C:\Users\aejp1u19\Zotero\storage\F6GB4YIB\Andersson et al. - 2024 - Sequential school choice with public and private schools.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s00355-024-01527-0
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s00355-024-01527-0
+      \verb C:\Users\aejp1u19\Zotero\storage\35SANTSB\Hahm and Park - A Dynamic Framework of School Choice Effects of Middle Schools on High School Choice.pdf
       \endverb
     \endentry
     \entry{sattin-bajajStudentTransportationChoiceRich2023}{article}{}{}

@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: STRAUSS.aux
+The style file: splncs04.bst
+Database file #1: MATCH-UP.bib
+Warning--entry type for "participationEducationReformAct" isn't style-file defined
+--line 1175 of file MATCH-UP.bib
+Warning--to sort, need author or key in participationEducationReformAct
+Warning--empty journal in burgessSchoolChoiceEngland2019
+Warning--empty year in burgessSchoolChoiceEngland2019
+Warning--empty journal in burgessParentalChoicePrimary2011a
+Warning--empty year in burgessParentalChoicePrimary2011a
+Warning--empty journal in wilsonSchoolChoiceCity2019
+Warning--empty year in wilsonSchoolChoiceCity2019
+You've used 4 entries,
+            2850 wiz_defined-function locations,
+            624 strings with 5447 characters,
+and the built_in function-call counts, 2093 in all, are:
+= -- 165
+> -- 52
+< -- 6
++ -- 22
+- -- 18
+* -- 151
+:= -- 238
+add.period$ -- 3
+call.type$ -- 4
+change.case$ -- 21
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 179
+empty$ -- 183
+format.name$ -- 21
+if$ -- 449
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 37
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 78
+preamble$ -- 1
+purify$ -- 17
+quote$ -- 0
+skip$ -- 80
+stack$ -- 0
+substring$ -- 124
+swap$ -- 117
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 7
+while$ -- 15
+width$ -- 5
+write$ -- 39
+(There were 8 warnings)

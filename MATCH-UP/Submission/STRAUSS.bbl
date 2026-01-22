@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{participationEducationReformAct}
+Education {{Reform Act}} 1988, \url{https://www.legislation.gov.uk/ukpga/1988/40/contents}
+
+\bibitem{burgessSchoolChoiceEngland2019}
+Burgess, S., Greaves, E., Vignoles, A.: School choice in {{England}}: Evidence from national administrative data  \textbf{45}(5),  690--710. \doi{10.1080/03054985.2019.1604332}
+
+\bibitem{burgessParentalChoicePrimary2011a}
+Burgess, S., Greaves, E., Vignoles, A., Wilson, D.: Parental choice of primary school in {{England}}: What types of school do different types of family really have available to them?  \textbf{32}(5),  531--547. \doi{10.1080/01442872.2011.601215}, \url{https://doi.org/10.1080/01442872.2011.601215}
+
+\bibitem{wilsonSchoolChoiceCity2019}
+Wilson, D., Bridge, G.: School {{Choice}} and the city: {{Geographies}} of {{Allocation}} and {{Segregation}}  \textbf{56}(15),  3198--3215. \doi{10.1177/0042098019843481}
+
+\end{thebibliography}
